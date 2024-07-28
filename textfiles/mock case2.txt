@@ -1,0 +1,100 @@
+Hey Evelyn, how are you doing?
+
+I'm doing great. Rachel, how are you doing?
+
+I'm good. I'm excited because we're going to do a product sense interview together today. That's what people asked for in a survey we made on LinkedIn, and I'm excited to go through a case with you today.
+
+Yeah, me too! Last time I think we did a product strategy together, and you did amazing, so I think today we are going to actually talk about product sense. So I'm going to give you a product sense prompt, and we'll dive right into it. How does that sound?
+
+It sounds exciting!
+
+Cool, awesome. Okay, so I'm the interviewer. I'm going to ask you to imagine you are a product manager at a startup, and your goal is to get people to read more. What are you going to do?
+
+That's a great question. I want to think for a second before I go into my framework. I want to think about what it means for people to read more because there's so much content out there that people can read. We have Kindle, we have blogs, we have content. What do you mean when you say they read more?
+
+I think it's an open-ended question. In your response, I also wanted to hear about your take on why reading more is important. Obviously, it's a company that you are a PM for, and our product is a solution you are going to develop that helps people read more. So obviously, the company's success relies on people reading more.
+
+Okay, so when I'm thinking about reading more, I'm thinking about something around books as something that I think is exciting. When I'm thinking about the type of content people can read, you know, people can read magazines, people can read blogs, people can read textbooks, they can read books. But I think that there's something about reading books, especially in the world today where there is a lot of information. I think reading books helps people think more critically and build patience. So I would want to maybe focus on reading books. But the one thing I'm thinking about that's a challenge is that I think books are a pretty crowded place. You have Kindle, Nooks, and all of these players in the space, especially in the digital space. I think it'll be interesting to see what opportunities there are outside of this. Before I go on to think about how I'm going to approach this, how long am I thinking about validating this through? What are my resources if I'm thinking about this?
+
+Yeah, that's a great question. I would say this is a zero-to-one. We are really trying to start fresh, so let's just say you have between six months to 12 months to go from ideation to actually launching this product.
+
+Okay, that sounds good. So here's how I want to think about this: I spoke a bit about the landscape of reading. I think I will probably want to define a goal to think about how to measure it, and my hypothesis is that we're focusing on books or a book equivalent. Then I'm going to think about segmenting my user base—who do I want to build for and why? I will then think about what their pain points are. Once I've prioritized the pain points, I will think about potential solutions, and then once I've prioritized the solution, we can, if time permits, I can do a bit of a go-to-market. How does that sound to you?
+
+That sounds great.
+
+Okay, so if I'm thinking about getting people to read more books, then I want to think about it first of all, what is a way for me to know that I'm successful? And I think if I'm thinking about the world, getting people to read more means getting people who are reading books to read more or getting people who aren't reading to read. So I think, and I also want to clarify that I'm... yeah, sorry, let's keep that. So I think I want to see how... I think for people who are already reading, there's probably a lot of content already out there that people can read, a lot of applications, a lot of things that they can use. So I'm actually going to think more about people who aren't necessarily reading. And I'm not saying that they can't read, I'm just saying that they choose not to read right now or that they don't for whatever reason. And so I think I'm going to set a metric that's kind of like focusing on that audience before I go to segmentation. So I'm going to think about the number of people reading the equivalent of 20 pages of a book per week. To me, that means that they're probably reading, I don't know, once or twice a week maybe. It's becoming more of a habit to them, and then maybe, you know, if the average book is like 200 pages, then over three months they read a book. That's about four books a year, so that sounds like a pretty hectic goal to get people to read more from not reading books to reading the equivalents of four books per year. How does that sound to you?
+
+I like the calculation: 20 pages a week, three months a book, four books a year. Um, I'm fine with that. Help me understand what happens if someone is reading a large print, or if they are figuring out different ways. What if it's a picture book, or are the words the one that you primarily focused on?
+
+That's a great question. I think I'm going to focus on words more than printed because I think comic books and things like that don't really fall into the mission I was thinking about. It probably requires a bit more investment in terms of visuals, and I probably want something that can be mass-produced or duplicated. So I think I'm going to focus on words for now, but that's a great question.
+
+Okay, yeah. Yep. Okay, so let's think about segmenting. When I'm thinking about segmenting, usually I like to think about the US as a market, but I feel like in this case, I might think about going outside of the US. And again, because the market in the US is so condensed, I'm actually thinking about, you know, my first layer is going to be US versus, or when I say US, I also mean the Western World versus non-Western World.
+
+I actually think that I want to think about the developing world more because I think my hypothesis is that people are reading less. It's less embedded in culture. People have less available income and less time. So I think I'm going to think about the developing world even though I'm less familiar with that market.
+
+And then, when I'm thinking about the developing world, I want to think a bit more about demographic segmentation within that as well. So, the way I'll think about it is: children, teens, young adults, and adults plus. I think that if I'm trying to get people to read more, I'm trying to get people to build a habit.
+
+And I think that if I'm thinking about a population that might have enough time and might be able to build those habits, I'm actually thinking about teens as a population. I think there might be an interesting opportunity to collaborate with schools down the line, meaning it might be an easy way, as I'm thinking later on about go-to-market strategies, to test my hypothesis.
+
+I think teens don't have their habits formed enough yet, so you can still influence them. I assume that they're reading, or that could be part of the problems that I think about later on, but it's probably easier than children who might need more support from their parents. And then I think for adults and older, it might be harder to find a way to approach them at scale. So I think in terms of impact and reach, I think teens in developing economies are probably going to be my area.
+
+I also think, on rural versus non-rural, maybe there's more of a need in rural economies versus urban economies, I mean urban cities. Because I think that urban environments, even in the developing world, are very similar. But, I think a lot of people still live in rural communities even in developing economies, but maybe some of the problems I find apply to both.
+
+Does that sound good to you?
+
+That sounds good to me. So what I'm hearing is you want to focus on teens, teenagers, maybe young adults in developing economies, probably leaning towards rural, where I think there's probably going to be a lot of need and maybe a lot of opportunities as well. You talked about the partnership with schools, so I'm going to ask you: what could be an alternative for your target audience that they could already get at school?
+
+I think schools already have libraries, so they could probably go and get books from libraries. I know that in the US, digital libraries are very common. I don't know how common this is in the developing world. I also don't know what quality of books they have or if those are the books that people want to read.
+
+I also think, and I'm going to get to this in the problem statements, but I'm not sure if the language is right. I think there's probably a very interesting opportunity right now with generative AI to make more books accessible to people.
+
+I like you talking about generative AI. Maybe help me understand how you think generative AI, and maybe we are going into the pinpoint space, but I'm just curious. We are talking about words and books, and now technology. So help me understand.
+
+Yeah, so I think a lot of books are written in English or in different languages. With generative AI, especially with the evolution of large language models, I think translation is becoming a problem that's much easier to solve. A pain point is the availability of books that are interesting to teens in their language. LLMs can definitely be a relatively easy and cheap way to translate books. But I'm kind of like jumping into problems and solutions already.
+
+Great, let's move along.
+
+Okay, so I'm going to think about a few pain points. Let me think about that. So I'm thinking about the journey of reading a book. You need to know how to read a book, you need to have time to read it, and you need to have the motivation to read it. So if I'm thinking about key pain points, then I would say:
+
+People might not have time to read books.
+I don't have time to read.
+Even before that, I can't read.
+There aren't any interesting books in my language available.
+When I'm thinking about these three pain points and my time frame of a year, I don't think I'm going to teach teenagers how to read in under a year. So I think this is something that is going to be chopped off. I don't have time to read is also something that I'm not sure I can really solve. You know, if these kids need to work or do anything like that, then I don't think I'm going to be able to solve that.
+
+But I do think, especially with what I said beforehand with generative AI, I do wonder if there's an opportunity to think about "there aren't interesting books in my language available" as something that we can focus on. So I'm going to focus on this one.
+
+Okay, so now we're at the solution space. I'm going to take a second to think about potential solutions.
+
+Okay, so a few solutions that I can think about:
+
+A book app.
+Text-a-book functionality.
+Write a book.
+So, a book app: I'm thinking about building an app that is available on mobile phones that uses large language models to translate any book to any language. So that's number one.
+
+Number two: this is actually as I'm thinking about developing economies, there isn't really a good standard of phones. So I don't know what kind of smartphones people use. Some phones are simpler, some people, I know that mobile phones have high penetration, but I know that in some places they're not very sophisticated necessarily. So maybe an app will be a bit more challenging, but I do think that using text messages as an infrastructure could be a really interesting way, or even using WhatsApp.
+
+The idea would be that you can text parts of a book in sequences to somebody. That person can click a button to receive additional sections of the book, and that's how they can read the book.
+
+The last one I'm thinking about is writing a book, which is to create some sort of an interactive interface. It can be in an app, it can be on a phone, that users can participate in writing their own story. Maybe it solves a bit of a different problem, but it's kind of like, I remember when I was growing up, there were these Dungeons and Dragons books that I would kind of need to roll dice and decide where I go. I would need to make decisions, and the progression of the book would change based on how I would interact with the book. I think there's something a bit magical about it. So that could also be something that I explore.
+
+When I'm thinking about these three solutions, I want to do a little bit of prioritization here. So I'm thinking about reach, impact, confidence, and effort. I think the book app is going to have lower reach because I'm not sure about smartphone standards. Impact I think is going to be high. Confidence: I'm pretty confident that I could build it. I don't know how well, like there are many apps that build books. Effort: I don't think the effort is going to be that high, especially if I'm using an LLM.
+
+I do think there's a risk around this, which is copyrights. So that might be something that I want to look into. That could probably be part of a licensing or agreement or something like that. For the text-a-book, I think the reach becomes higher. I think the impact is similar. My confidence is similar, and I think the effort might actually be lower because I don't really need to think about a user interface. So I actually like this one from this approach.
+
+The write-a-book, the collaborative writing app, is something that I think the reach, I'm not sure because I think it requires people to be more engaged and more active. The impact, I'm not sure. It could be high, it could spark people's creativity. My confidence is low because I don't see these types of books being very popular in the world. And then the effort, I think, is going to be a bit higher. Though, again, with the advancement of large language models, I could probably see this happening a bit easier.
+
+I also think this mitigates the risk of copyrights that I have with the other two because they're kind of creating the book as you go. But I also think it's harder to control. Another risk there is it's going to be harder to control the content. If it's harder to control the content and I'm thinking about teenagers in developing economies that are probably more conservative, then it's probably going to be harder to approve. I'll talk about this in the GTM section, but I think based on what I just saidtheir engagement, but how? I think that ties back to my last question to you: if this product is a huge success, how would you continue to measure? I see your expansion plan about schools and affiliates, but I was also wondering, if a teen reads the book, reads four books in a year like you said, is there a V2 of helping this to maybe explore or engage more with your product?
+
+Interesting, I like that. Good point.
+
+So I think that's really it. I really enjoyed listening to your response, and I'm even more excited about trying out this product if you build it. But I live in the States, so I guess I'm not one of your target audience. But good job, Rachel.
+
+Thank you. Maybe it works for people in the States as well. Maybe people want to get text messages or WhatsApp messages with snippets of books. I don't know. You can respond in the comments and let us know if you think this is a great idea or a terrible one. I think, at the very least, it's a creative one.
+
+It is a very creative one, and I think the other solutions you had in mind are also creative as well. For people who text a lot and text very little messages, then maybe writing a book is a great alternative to get people engaged, right?
+
+Yeah, cool. Well, thank you so much for the time, Evelyn, and I hope to see you again soon.
+
+Thank you. Bye.

@@ -1,0 +1,2592 @@
+[Music]
+
+oh
+
+[Applause]
+
+[Music]
+
+n a
+
+[Music]
+
+[Music]
+
+a
+
+[Music]
+
+w
+
+[Music]
+
+[Music]
+
+a
+
+[Music]
+
+o w
+
+[Music]
+
+[Applause]
+
+[Music]
+
+[Applause]
+
+[Music]
+
+n
+
+[Music]
+
+a
+
+[Music]
+
+[Music]
+
+oh
+
+[Music]
+
+a
+
+[Music]
+
+[Music]
+
+oh
+
+[Music]
+
+oh
+
+oh
+
+[Music]
+
+[Applause]
+
+[Music]
+
+[Music]
+
+[Applause]
+
+[Music]
+
+la
+
+[Music]
+
+a
+
+[Music]
+
+[Music]
+
+oh
+
+[Music]
+
+oh
+
+[Music]
+
+hello my name is Tucker Johnson and I am
+
+your host today as we experience nimsy
+
+live where we talk about the latest and
+
+greatest in Translation localization
+
+internationalization culturalization and
+
+all that fun stuff global companies need
+
+to Delight their International customers
+
+on this program we invite guests who
+
+like to have fun and have some value to
+
+add for our audience of globalization
+
+professionals I'm always eager to
+
+provide a platform to those with a good
+
+story or a good data set so let us know
+
+if there are any topics you'd like
+
+covered or guest that we should reach
+
+out to for future episodes if you
+
+haven't already done so make sure that
+
+you are subscribed to Dy insights on
+
+your platform of choice we're coming to
+
+you live today on LinkedIn Facebook
+
+Twitter for
+
+X maybe and YouTube of course so
+
+whichever platform you prefer make sure
+
+you subscribe to nimy Insight and you'll
+
+be the first to hear about latest uh
+
+industry research that we publish and
+
+when we schedule new events like this
+
+under the nimsy live
+
+Banner um I'm going to get right into it
+
+today without a whole lot of pump and
+
+circumstances and plugging different
+
+things and introduce our topic for those
+
+of you joining us live today if you
+
+signed up for it you already know that
+
+we're talking about large language
+
+models and AI nural machine translation
+
+all that stuff so let's get into it
+
+neural machine translation has been
+
+leading AI translation solution for
+
+several years however with the promise
+
+and progress of large language models
+
+LED notably by chat GPT what's the right
+
+technology for translation and
+
+localization processes are llms too
+
+immature or is translation a potential
+
+area to develop your corporate large
+
+language model strategy unbabel CTO and
+
+co-founder Joe gar Gara and I should
+
+have asked you how to pronounce your
+
+name I hope I'm doing that all right um
+
+you're going to be leading our
+
+conversation today um talking about un
+
+babbles investment into translation
+
+large language models and state of
+
+technology and the potential
+
+applications in Translation quick
+
+introduction to my guest here today
+
+we're joined by Z Gara co-founder and
+
+chief technology officer of unbabel Joe
+
+um holds a PhD in natural language
+
+processing and has an impressive
+
+background in machine learning and
+
+computational Linguistics after
+
+completing post-doctoral research at the
+
+University of Pennsylvania where he
+
+developed Innovative statistical
+
+learning methods Joe chose to pursue
+
+entrepreneurship he co-founded unbabel
+
+in 2013 bringing his expertise in
+
+language technology to revolutionize AI
+
+powered translation as a computational
+
+genius with both academic and
+
+entrepreneurial experience show is
+
+uniquely positioned to discuss the
+
+evolving landscape of AI translation
+
+technology welcome to the show first and
+
+foremost am I slaughtering your
+
+name um and then did I miss anything in
+
+the
+
+introduction no you don't you didn't
+
+miss anything and I think the the name
+
+is okay perfect well welcome to the show
+
+thank you so much for taking time today
+
+it's it's a Hot Topic uh everyone wants
+
+to talk about AI large language models
+
+and I feel that I'm I always feel very
+
+fortunate when I get to talk to someone
+
+like yourself because I think there's a
+
+lot of guys out there like me with
+
+podcast who are talking about Ai and
+
+large language
+
+models but we don't really know what
+
+we're talking about and and you have the
+
+chops you have the background and the um
+
+the degrees to prove it to talk about
+
+this so I'd like to just open up um by
+
+talking
+
+about how what has been your impression
+
+on this hype over AI large language
+
+models that we've seen it really started
+
+um in 2023 with
+
+the with the proliferation or the
+
+expansion of chat G PT of course is
+
+almost become synonymous with it but
+
+over the last 12 18 months what what has
+
+been your impression on what's going on
+
+not just in our industry but in in
+
+general yeah I mean um so first of all I
+
+think chat GPT had a bit of a magic
+
+experience yeah uh and basically it
+
+brought AI to the consumer and people
+
+were not using to use AI directly and
+
+the fact that you just like talking with
+
+the computer and so far the experience
+
+had been very bad it's like basically
+
+like template at your talking and jgpt
+
+could answer all your questions um and I
+
+think that from a research perspective
+
+it was really amazing like this
+
+instruction models that you can in ch
+
+ask questions in chat they just brought
+
+something different from what we had
+
+before so I think that was kind of like
+
+everybody was overwhelmed with jgpt and
+
+basically all the models that came
+
+afterwards sorry yeah I think there's
+
+like
+
+um there's three things that are very
+
+interesting happening right now so is
+
+Gen everybody is talking about it and
+
+having a huge impact in a lot of places
+
+I'll comment a little bit on that I
+
+think that on our industry llms are
+
+useful for a lot of tasks besides
+
+machine
+
+translation um and I I'm happy to to
+
+dive into that because I think that
+
+localization is much more in machine
+
+translation but then they also like
+
+state-of-the-art for machine transation
+
+for several reasons and so this put us
+
+in a position where we transition from
+
+one technology to the other one same
+
+happened when everybody was doing phrase
+
+based Mt and neural Mt came along and
+
+whenever there's this transition period
+
+there an adaptation period uh some
+
+people take sides about is this really
+
+the new big thing it's not the new big
+
+thing it will become is it already and I
+
+think it's kind of the phas that we are
+
+right now in terms of llms in the
+
+localization industry um and overall I
+
+think everyone is still discovering the
+
+power that these models have so every
+
+time there's new model coming there's
+
+like a new a couple of new functional
+
+new features a new way to prompt so it's
+
+really like a very exciting time to be
+
+on AI or working with
+
+AI yeah I feel that um so companies like
+
+you people like you you you have this is
+
+part of your background um you've been
+
+studying this sort of stuff for a very
+
+long time and everyone else is basically
+
+trying to catch up so when when this
+
+started when AI started coming to the
+
+Forefront over the last year or so what
+
+were some of the first things that you
+
+thought this is what we need to do um
+
+specifically for the language Services
+
+industry because you
+
+mentioned the applications with machine
+
+translation machine translation's been
+
+around for a while right first of all
+
+let me ask you this is machine
+
+translation
+
+AI yes okay perfect settled um because
+
+that's what I've been telling people we
+
+we've been using AI in this industry for
+
+a very long time and I think that's a
+
+very compelling conversation to have
+
+because right now especially on the
+
+Enterprise side lots of buyers of
+
+localization Services their bosses are
+
+coming to them and saying what are you
+
+doing with AI and I think a a very
+
+interesting way to start that
+
+conversation is well we've been using AI
+
+for quite some time it's called machine
+
+translation um
+
+but how is how are large language models
+
+in machine translation how are they
+
+related how do they complement each
+
+other um and what are the additional
+
+applications for AI okay so it's so
+
+first of all machine translation was
+
+probably the first application of AI the
+
+thing that started the field that start
+
+a lot of the the Practical applications
+
+um and so it's fair to say the language
+
+the langu our industry the language
+
+Services industry has been doing AI
+
+since way before it was cool right yes
+
+and also it's also fair to say that the
+
+model that is behind llms the
+
+Transformer model was made for
+
+translation that was a model that was
+
+created to do machine translation so
+
+that thing is like I think that LMS were
+
+less disruptive on the translation
+
+industry than they were in other
+
+Industries because we're already using
+
+like Transformer models and large
+
+language models maybe not so large for a
+
+long time and for other Industries this
+
+was basically become the new thing I
+
+mean all this discussion about humans
+
+being replaced or not being replaced I
+
+mean we've been dealing with that for at
+
+least since was born 10 years ago with
+
+machine posting right the combination
+
+between Ai and humans to a certain
+
+extent um so I think like so neur Mt
+
+again is a transform model um and
+
+basically large language model is also
+
+transform model it's trained differently
+
+so it's trained on like not just
+
+bilingual text just like General data
+
+can have different languages and it's
+
+trained to answer questions and one of
+
+the questions can be can I translate
+
+this from A to B it's much bigger yeah
+
+uh and so the question is does this size
+
+compensate the fact that it's not
+
+trained specifically for translation and
+
+I think the answer is yes and the
+
+results show that
+
+just just asking the simple question can
+
+I translate from A to B the the latest
+
+LMS already perform better than the best
+
+n now say that again the large language
+
+models are performing better than the
+
+traditional machine translation models
+
+yeah interesting with it basic prompt
+
+but but this is just the beginning
+
+because and the difference is not that
+
+big because again if you're doing a
+
+neurom machine translation with a with a
+
+large model you're not that far away
+
+from llm it's just a training easy like
+
+if you look at the model from the no
+
+language Left Behind it's a huge llm
+
+it's just ranges foration so it's not
+
+that like they're not that far apart
+
+it's not that they're different things
+
+actually like a very similar the
+
+foundational technology is the same okay
+
+the difference is like you can have a
+
+neural Mt that is much smaller like 100
+
+million parameters as opposed to like
+
+billion parameters now the thing is like
+
+because large language models allow this
+
+declarative way to pass information
+
+where I can say translate this from
+
+English to Spanish but translate this
+
+for customer X style guys are these and
+
+terminology is that and by the way I
+
+these previous sentences you can build
+
+this literally like I just said like
+
+writing and performance of the of the
+
+translation becomes much bigger and this
+
+for me is what's really different
+
+because trying to use this on Mt was
+
+super hard I mean people were playing to
+
+to P knowled neural for ages with
+
+factors we we we were doing neural Mt
+
+for llm like we have like a eight years
+
+of experience developing our own neur Mt
+
+systems it was super hard that's in
+
+context it was hard and very kind of
+
+like du if it was working properly or
+
+not and if you wanted to codify the
+
+style guides there was no way if you
+
+wanted to pass like a similar
+
+translation memories there was some way
+
+all of that was more complex now that
+
+became very simple and so I think it's
+
+like it's not that just better they are
+
+right now there's some caveats they're
+
+like you have this EXT you can do very
+
+easily that you couldn't do before so
+
+for me there's no question that llms are
+
+the present and the future of machine
+
+translation again think we're in Period
+
+so you can always find examples that
+
+neural Mt is still better because it's
+
+faster because for this combination I
+
+get this my own mod is super tune that
+
+is better but again if you go back to
+
+2000 like when nomt came out this was
+
+exactly the discussion that we if you
+
+look at the papers from there there was
+
+this discussions about is going to be
+
+best for and then a lot of people saying
+
+no no some examples but no in real was
+
+they were and I think we're going over
+
+the same transition period all right
+
+well you've already answered like half
+
+of the questions that I wrote for this
+
+interview so and we've got a lot of time
+
+left but and chat I see your questions
+
+over there in chat we're going to get to
+
+those in just a sec if anyone has any
+
+questions Now's the Time throw them in
+
+chat so I can bring them back up here
+
+but um I wanted to talk a little bit
+
+about unbabel the work that you're doing
+
+at unbabel um
+
+[Music]
+
+um what what's what's different today
+
+that you're investing in what areas are
+
+you investing in today that you weren't
+
+investing in two years
+
+ago yeah so maybe it's worth saying
+
+where we were two years ago so again
+
+like I said I think this is an
+
+interesting topic to talk about there's
+
+much more on localization than machine
+
+transation and so for the last like
+
+eight years and B's been working a lot
+
+on our own machine transtion systems the
+
+other thing that we're very well known
+
+is for like our own QV system so we've
+
+been like leading QV for the last eight
+
+years win the competitions because we
+
+believe that QE is the thing that is
+
+empowering the adoption of AI because it
+
+tells you can I trust this or not um and
+
+we keep investing very hard in QE by the
+
+way QE is one of the examples that the
+
+best model is not an llm yet we believe
+
+it will be but it's not the comet Qi is
+
+still better than the best LM can get
+
+it's a it's a transition period we
+
+investing a lot of M recognition we're
+
+investing lot on algorithms to do
+
+localization of entity so there was a
+
+bunch of like all these ierse set of
+
+pieces of AI that we're training and
+
+we're training all of them per language
+
+pair per customer per brand so we build
+
+this humongous infrastructure that to
+
+basically monitor data coming from our
+
+customers one a threshold you basically
+
+set a retraining Loop it will retrain
+
+all the models it will replace the model
+
+on production go again so this was a lot
+
+of effort on mlops before they were like
+
+proper mlops infrastructures but this is
+
+what we we need to do to keep the
+
+quality always up to date to our
+
+customers now what we realize is that
+
+you can get one model one llm that
+
+performs all these tasks and that
+
+performs them better than every of the
+
+individual models so now instead of
+
+having hundreds of empty model uh
+
+hundreds of models hundreds of you have
+
+one model and all you're changing is a
+
+prompt and so once we realize that this
+
+was happening we basically went all in
+
+with ourm and so we're basically
+
+focusing we're still developing a lot of
+
+discriminative Q because it's really
+
+strong and actually our Qi is what makes
+
+toar so good because it allows us to
+
+filter the data in a way that we only
+
+use high quality data and these models
+
+are very sensible to high quality data
+
+but then we're basically going all in
+
+onm and what that means is we have two
+
+models we have a 7B and a
+
+30b um we're training a 70b we're
+
+training a 2B and at the same time we're
+
+adding more languages we're adding more
+
+tasks we're understanding better what's
+
+the instructions that we need to do
+
+because one thing we observe is if you
+
+want to query the model to say translate
+
+this given this context and these
+
+translation memories and these style
+
+gues and and all these things and then
+
+if you create instructions that
+
+represented during the instruction
+
+tuning then you actually get better
+
+performance and if you just prop it
+
+without doing it so you're kind of
+
+telling the model a little bit of like
+
+type of questions we're going to ask uh
+
+and that's very useful and then we're
+
+looking at like other other use cases
+
+for llms besides this basic ones and one
+
+that for me was like
+
+overwhelming and amazing was like the
+
+trans creation so because we used to
+
+work a lot on customer service for or
+
+five years ago we soon identify that if
+
+have agents writing in English to a
+
+customer who's going to receive the
+
+message in Japanese there's all these
+
+context of like the cultural cultural of
+
+of Japan that needs to be incorporated
+
+and so we had to write these detailed
+
+style guides for the agents to write to
+
+read so that they knew how to write the
+
+email now what we realized like we can
+
+actually use those and with some extra
+
+work give that to an llm and say rewrite
+
+the text and then suddenly you can
+
+automate this process by doing trans
+
+creation automatically and these results
+
+are amazing they are really really
+
+interesting and so I think basically
+
+llms open a lot of those it's up for us
+
+in the industry to have our
+
+creativity to develop them and and the
+
+other thing that's very interesting is
+
+like you don't need to have like a
+
+research scientist to build these things
+
+you need them one to build to but then
+
+we actually have a lot of our inhouse
+
+linguists actually playing with the
+
+prompts because they do have a lot of
+
+much about language and now they can
+
+code AI in natural language so again
+
+this massively open like the things we
+
+can do with LMS and I mean again I'm
+
+very excited because it's very exciting
+
+time so I think I cover a lot of things
+
+well things are changing which is things
+
+are always changing that's not new right
+
+what's new to me by my estimation is the
+
+rate of change at which things are
+
+changing things are just taking off like
+
+crazy
+
+here um so super exciting times let's go
+
+to chat um because I had a question here
+
+and I think we already kind of talked
+
+about it um how about blue comparative
+
+with um large language models like
+
+because you're talking about
+
+quality yes um how is that quality
+
+measured our traditional machine
+
+translation quality metrics are they
+
+still relevant do they need to be
+
+adapted what do you say about that yeah
+
+I I'll say something I hope people don't
+
+get offended but don't use blood to
+
+compare in Te that's done like four or
+
+five years ago you have to use Comet
+
+it's fa on Comet it's fa on Comet it's
+
+mq annotations than by linguists um I'm
+
+not sure if the team measures blue I
+
+don't look at it I don't think it's a
+
+worth F metric okay just curious why not
+
+because it's it was shown to not
+
+correlate well with human quality after
+
+after a given threshold of quality of
+
+the translation like the results are not
+
+um not trustworthy and I'm defending
+
+Comet because it is the best according
+
+to the W competition yeah and open and
+
+is becoming the standard but there are
+
+also other good metrics has blurred from
+
+Google there's other semantic metrics
+
+that are also good just blue like this
+
+lexical form that is no not good anymore
+
+so it's a legacy thing that most have
+
+been seeing are boning it still are
+
+still holding it but it's I don't think
+
+it's something that we should use all
+
+right I feel like we could have a whole
+
+podcast on that topic but I'd need to
+
+bring someone besides myself who can ask
+
+better questions so and also bring
+
+someone that can give your answers to be
+
+honest yeah we should have a debate is
+
+organize a debate I can moderate a
+
+debate but I can't ask intelligent
+
+questions about blue scores so all right
+
+thanks for that uh I see some more
+
+questions here hello everybody in chat
+
+um Raphael asks Joe do you think that at
+
+this moment the massive amount of
+
+English data has an influence on large
+
+language model performance it's known
+
+English usually comprises 95% of data in
+
+other languages 5% what do you think yes
+
+yes I do and that's exactly so basically
+
+let me tell you a bit what tower is
+
+because I think that's important tell a
+
+little bit the story because that's yeah
+
+talk about the product um that you've
+
+developed a year of work so Tower is we
+
+start from a foundational model so we
+
+played with the litu mistra L 3 Jamba uh
+
+and then we do continuous pre-training
+
+and this phase is super important and
+
+this is because this modules mod models
+
+were not trained to be multilingual so
+
+they're kind of like multilingual has um
+
+secondary effect they're not
+
+intentionally built to be multilingual
+
+and what we do is we create this huge
+
+multilingual data set and we do
+
+continuous pre trining so what you get
+
+after this phase is a model that is much
+
+better at addressing different languages
+
+and this is exactly to mitigate uh what
+
+you're asking and then the second phase
+
+is we have our own set of instructions
+
+that are highly cated that we use to do
+
+the instruction tuning part together
+
+with generic and this is what gives us
+
+the Boost but definitely these mods are
+
+not multilingual so at the same time
+
+that we're doing this this starting from
+
+a foundational model and doing these
+
+loops on top we're also part of an
+
+European Consortium training Arrow llm
+
+so it's a llm For All European language
+
+plus other languages and this is being
+
+trained from scratch with data which is
+
+a diverse set of data from all the
+
+languages and like the research question
+
+here is like can you actually get better
+
+performance than you can with this
+
+addition of continuous pre-training
+
+because it's a very important
+
+conversation but yes definitely like
+
+models suffer from language and in fact
+
+one thing we we not and again this is a
+
+side effect I don't want to claim Merit
+
+is we train the model to be very good at
+
+Mt QE ner Source correction and a couple
+
+of tasks that we care about so we're not
+
+focusing on the other tasks or creating
+
+special instructions but when we're
+
+training on M we realize that if we use
+
+Tower versus mistr on a bunch of the
+
+common benchmarks that were multilingual
+
+but question answering Tower is actually
+
+slightly better and my kind of like
+
+hunch without having some deep analysis
+
+is because the model learn more about
+
+languages so could answer the languages
+
+better now the ability to answer comes
+
+from Mr not from what weel what they got
+
+fromel was this ability to to learn how
+
+to deal with languages so I do think
+
+that these models when they're when
+
+they're intentional train to be
+
+multilingual versus like there was some
+
+multilingual on the data set since he
+
+knew some language they will become back
+
+that's my current
+
+belief good and that kind of brings us
+
+Segways us nicely into our next question
+
+here um which is because you're talking
+
+about training the model Gwen vandra
+
+asks can you explain a little bit about
+
+the process of how you created a
+
+proprietary llm and why you decided to
+
+create one rather than using an existing
+
+one I think you you kind of already
+
+touched on the reasoning behind that but
+
+if you could expand on that a little bit
+
+yeah no I think it's a a very pertinent
+
+question so we we played a lot with ch
+
+GPT and GPT 4 and other models
+
+internally in prompting them um so there
+
+are several things so one is has a
+
+translation company and has company like
+
+is an AI company for the last 10 years
+
+um we think we can do better that using
+
+those models for these problems at hand
+
+uh there's a question of security like
+
+who are customers want to send the data
+
+to these generic models but there's also
+
+the question that we believe we can get
+
+better quality out of models and then
+
+there's a part of cost like this these
+
+models are such a specific part of our
+
+pipeline that we want to be able to
+
+control the cost and you control the
+
+cost by having our own models and we've
+
+been playing I mean if you if you think
+
+about it like the last versions of our
+
+llms were sorry of Qi there are large
+
+language models they were not just like
+
+the instruction tune models we had an
+
+empty model that was a large language
+
+model so we've been playing with these
+
+models for quite some time so it was a
+
+natural step to uh to go f but I would
+
+say it's like cost reduction quality
+
+increase and have and have the control
+
+and security because otherwise if all
+
+you get to play with the prompt you're
+
+slightly limited what you can do and you
+
+cannot leverage all the data that we
+
+have accumulated over time yeah so qu
+
+cost reduction Quality Security um
+
+leveraging your data um it's still I
+
+mean to would you recommend and the
+
+answer is probably no because why would
+
+you create new competitors for you out
+
+there right but um objectively like
+
+someone who's just getting started today
+
+I found it I founded an LSP a month ago
+
+and I want to start looking into using
+
+this in technology would you recommend
+
+to me that I build my own model or use
+
+existing models hybrid
+
+approach I I I wouldn't just for the
+
+beginning for several reasons so first
+
+of all I think that any company
+
+including in bble the first thing they
+
+have to learn is how to productize LMS
+
+properly and this is not calling a a
+
+shed GPT API this is like you know most
+
+tms's they basically work at segment
+
+level so good luck on in context of the
+
+previous document to the to the sentence
+
+so there's there's a part of like how do
+
+I protti an LM and this is literally
+
+irrelevant if it's Tower CH GPT whatever
+
+like the infrastructure that needs to
+
+change be able to use it properly so
+
+let's assume that you've done that then
+
+there's all this development on top of
+
+an LM and I just mentioned some examples
+
+that do bble but there many more I think
+
+that a lot of the loc industry is
+
+jumping
+
+I've seen like really cool examples from
+
+other companies doing on top of llms so
+
+there's like a huge value added to do
+
+this then once you once you have done
+
+these two things I think the reason is
+
+like do you have know how to build ANM
+
+because if you don't it will take time
+
+and it's not building in the sense of
+
+like training a model is like how do you
+
+run these things in production these
+
+things consume gpus you need to know how
+
+to do scale on to zero otherwise you'll
+
+pay huge amount of you know there's a
+
+lot of knoow of just running this piece
+
+running this piece that you need to to
+
+have so you have to build build a team
+
+for that um then you know there there's
+
+a bunch of steps so yes if you have all
+
+of these and you have data and you have
+
+QV to fil the data and you have a
+
+linguistic team that is used to evaluate
+
+models for the last 10 years that if you
+
+have all these pieces like we
+
+have because you can reduce margin and
+
+cost but is this my first step no and it
+
+was not my First Step At bble First Step
+
+was let's setop LMS and how they work on
+
+the on the pipeline because I think
+
+that's where a lot of the Val is coming
+
+from I think then Tower brings another
+
+percentage of optimization but if you're
+
+just starting as an LSP there's so many
+
+interesting things that you can do right
+
+now like uh look at a particular use
+
+case of localization that no one is
+
+looking at and solve it so so for
+
+instance like think about uh when you
+
+need to look at a picture to do a
+
+translation like I remember like some
+
+eBay content from a long time ago that
+
+killed my brain because you really have
+
+to use the picture to understand what
+
+you're translating you can now solve
+
+that with the multimodel mty so go play
+
+with that and discover and solve that
+
+Niche because before you had to pass it
+
+to translator yeah now you can do
+
+something different another example
+
+remember that specific instruction that
+
+you have to do like the level
+
+instruction that you have to pass the
+
+translator so to be a to do good
+
+translator there was no way you could
+
+pass it to the LM now you can so there's
+
+so many things that now you can that my
+
+my option was not going to be let's
+
+Implement an LM from Scrat yeah great
+
+answer thank you um so it sounds step
+
+one
+
+experiment yeah play around with it get
+
+your hands dirty figure it out you know
+
+Break Stuff make mistakes and just kind
+
+of build your
+
+literacy around the topic it sounds like
+
+and I think that's the mode that a lot
+
+of us are in right now y i i want to go
+
+back because you mentioned for talking
+
+about the reasons why you decided to
+
+invest in llm technology and one of them
+
+is reducing costs right now this is
+
+because you have your proprietary system
+
+um that you've developed specifically to
+
+improve your margins on this and be able
+
+to offer a lower cost um but in general
+
+if I'm just leveraging other llms um whe
+
+from whoever right I don't have my own
+
+proprietary
+
+model one of the big question marks for
+
+me at least and for a lot of people out
+
+there that I'm talking to is cost um the
+
+cost structure is really hard to
+
+understand in in the translation
+
+industry we have perw pricing which is
+
+not a great model but it's the model
+
+that we have and it's predictable with
+
+large language models it's you know
+
+you're buying tokens but what does a
+
+token get
+
+me what is is it more expensive to
+
+translate with outof boox
+
+llms um than it would be with
+
+traditional machine translation or is it
+
+cheaper um there's there's a lot of to
+
+so yeah so so first of all if you think
+
+about characters in words token sits in
+
+between so tokens are sets of characters
+
+so you can do an approximation like how
+
+many tokens are there per word and you
+
+can convert from one to the other one
+
+then the cost of like what you put on
+
+the prompt are different from what you
+
+translate and if you always use the same
+
+prompt you cannot pay for that so
+
+there's there's some R meic to do this
+
+there the other thing is in practice if
+
+you buy chpt for translation is a third
+
+of the cost of for inst d
+
+and and that is very weird so that is
+
+the practice if you right now llms are
+
+cheaper than Mt really if you look at
+
+the intento report they I think they say
+
+on average 10x I don't know exactly the
+
+Val but has the value there so it's in
+
+general they're cheaper now I don't
+
+understand why and so my theory and
+
+again this is like my theory I don't
+
+have nothing to support is that there's
+
+such a war for like what that wins that
+
+they are sponsoring a lot of the cost
+
+because these models are much bigger
+
+than Mt if you think about it what costs
+
+money on these things is the size of the
+
+model so running at a Transformer model
+
+for neural Mt which is slightly
+
+different than an LM nmt is an encoder
+
+decoder llm is just decoder but they're
+
+very similar it's not about being nmt or
+
+llm is about the number of parameters so
+
+if you run a neur Mt with a lot of
+
+parameters like the no language left
+
+behind I think has 40 billions I I might
+
+be wrong or but if you run a 40 billion
+
+L neur Mt in a 40 billion llm the cost
+
+of infrastructure is going to be pretty
+
+much the
+
+same given that most LMS have much more
+
+parameters than the traditional
+
+nmt they should be more expensive the
+
+fact that they are not is surprising but
+
+right now if you're just buying a word
+
+per word uh llms are cheaper I also
+
+don't know how to explain that but
+
+that's the fact that's happening right
+
+now very interesting yeah
+
+that's it makes me I don't want to put
+
+my tin foil hat on right but like like
+
+you're alluding to I'm wondering if
+
+there's some if prices are artificially
+
+low at this period and then they're
+
+going to jump up um but also consider
+
+that when you're buying these apis
+
+you're paying like a 90% margin for all
+
+the companies or 90 something per margin
+
+of software so you have always if you
+
+build it own and develop your own yeah
+
+you know one then you can charge a 90%
+
+margin if you develop your own
+
+right yeah
+
+uh another question coming up thanks
+
+chat you guys are keeping the
+
+conversation going here um let's go to
+
+David Clark here says Joe why do you
+
+think more why do you think more is not
+
+being done to protect large language
+
+models from being polluted by public
+
+data sets particularly non-english sets
+
+that are not verified because Recent
+
+research suggests the consequences could
+
+be severe thank you David
+
+Clark I mean I'm not sure what polluted
+
+means if it's like because of some toxic
+
+Behavior or if it's because tests that
+
+you used to evaluate or if it's because
+
+they don't have quality I can tell that
+
+we saw over this year a huge Improvement
+
+on quality by using Qi to filter out
+
+sentences to filter out that quality
+
+you've mentioned Qi before what is Qi q
+
+q is qual exclamation so it's an
+
+algorithm that basically even two
+
+sentences tells what's the quality of
+
+the translation okay is something that
+
+we've been working for at least years
+
+there's a sh task on WMT it involves so
+
+it used to be just like what's the the
+
+what's the effort to correct okay then
+
+to score then you can have err
+
+annotation you can do a lot of stuff now
+
+but it's pretty being on the transition
+
+industry right now everybody's talking
+
+about this year yeah um I just hadn't
+
+heard Qi before or are you saying QE is
+
+it QE or Qi QE is quality valuation
+
+right and that we have something is Qi
+
+which is quality intelligence which is
+
+basically a way to group scores of QE
+
+into buckets that are more meaningful
+
+and to predict MQM like scores
+
+interesting okay yeah I just never heard
+
+that before Qi I need to get out more
+
+often okay um great
+
+um so let me try to rephrase what I
+
+think David's question is behind when it
+
+comes to training models using data sets
+
+and you can talk about your model you
+
+can talk about the other public models
+
+out there
+
+what sort of due diligence is going into
+
+making sure that the data is high
+
+quality meaning act let's just go with
+
+like accurate right we live in the world
+
+of and you know say what you will about
+
+this but we live in the world of quote
+
+unquote fake news right so there's all
+
+sorts of data out there um not all of
+
+it's necessarily verifi verified some of
+
+it's not
+
+verifiable right so
+
+before feeding a data set into an engine
+
+what do you do to make sure that
+
+it's two parts I think there's the
+
+foundational model part like if you're
+
+training a lmit to GPT I mean I don't
+
+know all that they do I think they do
+
+effort to try to the data but it's very
+
+hard with amount of data to check
+
+factuality because you don't have
+
+written that says this is fual or not
+
+and actually I think most of the
+
+problems doesn't come from that most of
+
+the problems come because with agree
+
+what's factual and what's not factual so
+
+we get what the internet says so on our
+
+case if you think that we're working
+
+like with training the mod to be very
+
+good at translating stuff basically the
+
+factuality means is what I'm is what on
+
+on the target corresponds what's on the
+
+source we're not saying is the source
+
+correct or not which by the way for now
+
+for now right we're doing a project for
+
+the medical domain uh and one of the
+
+challenges is okay so we can debq for
+
+linguistic quality we're now developing
+
+something really cool which is do we ad
+
+adhere to the European guidelines which
+
+is basically like just a complex style
+
+guide that can make an LM say okay
+
+you're doing on this think about it like
+
+another quality annotation but you can
+
+check the if the thing is factual or not
+
+like an algorithm tell if something is
+
+factual is very hard I would love to
+
+work on that but we're not working on
+
+that now in terms of like the factuality
+
+like is this translation the good of the
+
+other one this is exactly what Kiwi does
+
+and what kwi is very good okay and so
+
+what we did on on the steps that we did
+
+that care about the multilinguality and
+
+like are you translating properly
+
+basically what we have is this algorithm
+
+that we pass to all the data that we
+
+train and we discard all the data that
+
+is not good um or sometimes we just tell
+
+our community to say correct these ones
+
+and put them back here okay this also
+
+generates by the way there's something
+
+really cool which is you can basically
+
+now have a loop that every time there's
+
+an error you correct the sentence and
+
+basically you just tell the you has
+
+instruction and because you're using rug
+
+with the closest sentences you basically
+
+correct it and it's used on the next
+
+iteration so the loops to basically
+
+correct errors when you have human Loop
+
+or not became much faster and much more
+
+efficient which is also very very cool
+
+that's yeah and to me that's crazy all
+
+right like I remember the first
+
+conversation I had about this was months
+
+and months ago but just still to me it's
+
+crazy this idea that the machines are
+
+evaluating the machines right y and it
+
+gets it's like all right well what do
+
+they need us for right um and I don't
+
+fully understand it myself but it is a
+
+crazy concept let's go to back to Gwen
+
+here in the comments thanks David for
+
+your
+
+question um Gwen asking thanks for the
+
+answer to my first question one more for
+
+you with the pace of change of
+
+technology in our industry do you think
+
+that large language models are going to
+
+be able to handle languages of lesser
+
+diffusion great question um examples
+
+Mong alajo Etc accurately accurately
+
+within the next few year within the next
+
+few years or do you think some languages
+
+will be left out of this revolution I
+
+feel like these types of languages are
+
+the final frontier for a lot of the
+
+industry's technology couldn't have said
+
+it better myself Gwen yes I think that's
+
+a super interesting question and I think
+
+the the problem with those languages is
+
+like who's going to sponsor for
+
+technology to solve them because they're
+
+so longtail that LSPs on make any money
+
+out of them so there has to be money
+
+coming from some public ins acemia or
+
+government and that's that's super
+
+useful having said that I believe that
+
+the abstractions of L are much stronger
+
+than the abstractions that NE Mt systems
+
+have just because of like hey the size
+
+the way they are trained and the type of
+
+question that they're having to to
+
+answer so with much less data from these
+
+languages you can potentially get much
+
+better results on the end result the
+
+other thing that I I don't know if let
+
+me just stop there just to clarify cuz
+
+you say something that's really smart
+
+and I need to dumb it down for myself um
+
+so you're saying nowadays with the new
+
+technology it takes less data to feed
+
+into it to get good results than it did
+
+five years ago that's my belief okay
+
+just because like the way I see it is
+
+like abstractions that you're creating
+
+on language are much stronger with these
+
+huge language models okay so if you
+
+think about it whenever you add the
+
+language you're basically just trying to
+
+align the repes presentations from one
+
+language to the other and okay this
+
+concept that matches in English now
+
+matches on this language then you need
+
+less data to to do so the the other
+
+thing that I think it to be really
+
+interesting I don't know if there's work
+
+on this area so I'm just basically
+
+completely making this up is because you
+
+can you have a lot of example that you
+
+can use this models to generate data to
+
+train models and there's this Loop that
+
+the model is generating the data is
+
+training and actually improves on the
+
+data so so not only are the machines
+
+evaluating the machines the machines are
+
+the machines but think about it like
+
+language is patterns and these machines
+
+are way better than humans to recognize
+
+generate patterns so I think that's the
+
+the underlying thing now what I think
+
+it's interesting is these slow very
+
+longtail languages they la like with
+
+they like better just because they're
+
+longtail yeah but I'm quite sure that
+
+somebody could actually write a grammar
+
+for them any grammar is not going to
+
+Encompass all the exceptions of a
+
+language that's why go Bas systems never
+
+won or but hell maybe the machine can
+
+write a grammar for
+
+right if it analyzes a data set and says
+
+I'm not sure if the machine have enough
+
+dat to generate the grammar it's kind of
+
+like the chicken and theeg but maybe you
+
+can write the grammar to generate some
+
+data to train the machine to improve on
+
+that language yeah so I think there's a
+
+lot of interesting research that can be
+
+done and here's the interesting part by
+
+linguist so you don't need to have any
+
+ey researcher doing this which is
+
+normally concerned about models and not
+
+about the things of the language you can
+
+have linguage Lang is like get the
+
+grammar use them all to generate data
+
+get that data to like iterate a little
+
+bit on the model learning is it better
+
+on the language and kind of like go in
+
+loops and try to make it better so I
+
+think it's my point is it's much better
+
+to make these models better to really
+
+longtail languages than it was with the
+
+previous technology this technology is
+
+much more
+
+powerful I'm I'm loving this
+
+conversation because you've said several
+
+things today that are not what I'm
+
+hearing um out there in The Ether which
+
+is awesome because it's providing a
+
+different viewpoint on this typically I
+
+hear longtail languages are going to get
+
+left out because there's just nothing
+
+data to exist right like in a couple
+
+weeks I'm talking to um the folks over
+
+at bingo consult they do a lot of work
+
+preserving and promoting African
+
+languages for example and last time I
+
+talked to them and sign up for that
+
+podcast by the way listeners it's going
+
+to be good um last time I talked to them
+
+the challenge was that there's just not
+
+enough data there's not enough written
+
+content to feed into the machines and so
+
+this is really heartening to hear that
+
+that's okay because
+
+actually it's getting the requirements
+
+are getting smaller in order to get
+
+viable output because I think the
+
+problem is not the data or the problem
+
+is not the technology the problem is the
+
+data and if people are going to generate
+
+data this technology can help them make
+
+them better interesting very cool uh
+
+let's go back Raphael is asking exactly
+
+where I wanted to take this conversation
+
+um says how do you see the role of human
+
+expertise in the future of translation
+
+and localization with llms you think it
+
+will be completely replaced I asked this
+
+because data can be comprised not only
+
+for factuality but also quality EG bad
+
+translations truncated data on the
+
+internet Etc this is a big question you
+
+know lots of nuance in there but go for
+
+it it is a huge question and this is
+
+actually the question that investors
+
+have been asking me for the last 10
+
+years in in very different forms like is
+
+chtp going to kill and bble is the
+
+Google
+
+translate so several points so first of
+
+all has it stand
+
+the best llm for translation the quality
+
+produced is still not at the levels that
+
+our customers need so we still have
+
+humans that going to review the loop is
+
+this going to change probably when I
+
+don't know having said that there's
+
+always going I think translaters are
+
+going more to the role of like linguists
+
+like correcting the model teaching the
+
+model creating new applications for the
+
+model like this writing the prompts uh
+
+so I don't think they'll they'll go away
+
+I think they'll have a lot of work what
+
+I think you're going to do is because
+
+it's going going to be much more machine
+
+and again not just machine translation I
+
+think there's a pipeline of machine
+
+modules to get a good translation in
+
+machines which is just one of them
+
+basically they're going to be they're
+
+going to be able to be the ones coaching
+
+those systems creating those systems so
+
+I don't think they'll run out of work I
+
+do think that there's like an idea in
+
+again this is another idea I haven't
+
+explored but take it his is that is
+
+super interesting which which is think
+
+about this I'm a translator yeah right
+
+now I'm bounded by the of can translate
+
+per hour now we know that these models
+
+are highly capable of translating and
+
+they're highly cachable in the sense
+
+that you can look at the translate and
+
+say oh in this case I wouldn't say this
+
+I would say this differently and he
+
+learns you can think about and you can
+
+do this as a kind of a agent or has like
+
+a customized chatbot from chat gbt now
+
+think that you're a translator but
+
+actually what you have is you have 10
+
+chatbots from your like 10 chat
+
+translators that you coach for specific
+
+domains where you do the research and
+
+you read the research to the model
+
+Bally you become a little bit like a
+
+Pokemon culture where each Pokemon is
+
+like a specific translator that is
+
+translator and so you basically you
+
+maximize your the translator you're
+
+still the one in charge You're Still The
+
+One the research You're Still The One
+
+teaching the M translate you're still
+
+one the lqa after you're basically it's
+
+basically like making yourself more more
+
+productive by having these things
+
+working on your behalf yeah and so you
+
+start you said freelancer you have a
+
+host of Freelancers that work for you um
+
+I don't know exactly how this to this
+
+but it's something I've been thinking
+
+while I would like to explore is making
+
+yourself more scalable essentially right
+
+and I think that's a great mindset for
+
+translators linguists I need to start
+
+calling them right out there it's rather
+
+than being afraid of the technology
+
+think about how you can use it to make
+
+your own work more scalable higher
+
+quality all of that
+
+stuff um and as I mentioned I got to go
+
+I'm got to go pick up my kiddos here
+
+pretty soon summer Break um so I can't
+
+do the full hour but I want to ask you I
+
+want to close with this maybe um it's a
+
+question I like to ask folks like you
+
+asked it before I'm going to ask you
+
+which is I'm let's say I'm 18 years old
+
+I just graduated from high school and my
+
+dream is to become a translator um
+
+translator interpreter and go study
+
+translation and interpretation out there
+
+at the University what classes do I need
+
+to be taking if I'm looking if I'm just
+
+getting started I want to start as a
+
+translator or an interpreter um
+
+obviously I need to study
+
+language right or maybe not so obviously
+
+what else so I like to think that most
+
+people are intelligent and so I do trust
+
+on the translation study courses in the
+
+same way that they they teach cat noway
+
+and they didn't 10 years ago they
+
+adapted they will start teaching L how
+
+to interact with these things and how to
+
+prompt them there there's no benefit
+
+from not teaching that my fear with that
+
+though is um
+
+I'm a cynic I'm a skeptic right my fear
+
+with that is Academia moves pretty
+
+slow um and the rate of change in
+
+technology out there is moving pretty
+
+fast right now so how can Academia keep
+
+up that's a good question I haven't
+
+thought about I think they are keeping
+
+up I think Academia should teach you the
+
+fundamentals they should think you to
+
+teach you how to think okay how be
+
+basically how how to think how to the
+
+Timeless skills right yeah because those
+
+are the on don't change because everyone
+
+like and then tell you like go to chat
+
+GPT and try it out like like incentivize
+
+people to use it and you know it's not
+
+hard to say I'm going to change a little
+
+bit of my evaluation I'm going to make
+
+an example that I'm going to make you
+
+use chat GPT without anything else to
+
+see how it works uh but mostly academ is
+
+not there to teach you the latest trend
+
+of tools because otherwise you'll be
+
+updated in two years yeah yeah makes
+
+sense all right well Jo any any closing
+
+thoughts um how do people get a hold of
+
+you talk to me um
+
+yeah I mean talk to me about that um so
+
+my email is very simple
+
+ism.com it's like the privilege of being
+
+the first one given that sh is the most
+
+famous name in Portugal um LinkedIn
+
+email chat I'm always open to talk and
+
+to learn more so very happy to talk with
+
+anyone yeah guys um like I said before
+
+make sure that you're following nimsy
+
+insights out there so you can find out
+
+when we publish new episodes like this
+
+you can join us live um go follow Joe go
+
+follow unbabel check out un babble.com
+
+um you can find out more about the
+
+products we've been talking about today
+
+and what they're investing in over there
+
+and with that I'm going to wrap it up
+
+here thank you so much Joe thank you
+
+byebye all right ladies gentlemen chat
+
+we are out of time for today so if you
+
+enjoyed this nimsy live experience join
+
+us next week I want to say go check our
+
+LinkedIn and we have a calendar of nimsy
+
+lives coming up I appreciate our guest
+
+Joe I appreciate my colleagues here at
+
+NY insights doing all the hard work so I
+
+can have these fun conversations and
+
+finally I appreciate you the audience
+
+joining us live today all of the
+
+questions and comments in chat and I
+
+look forward to next time
+
+[Music]
+
+cheers oh yeah
+
+h
+
+[Music]
+
+[Music]
+
+[Music]
+

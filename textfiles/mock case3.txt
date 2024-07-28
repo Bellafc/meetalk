@@ -1,0 +1,170 @@
+Hi Aish, how are you? I'm doing good. How are you?
+
+Doing well, thank you. I'm excited to get a product sense interview question today and excited to be doing this mock with you.
+
+Sure, sounds good. You can assume we are Amazon and you are a PM at Amazon, and your task is to basically design a smart product that uses AI for kids. So, as in my understanding, the mission of Amazon is to be Earth's most customer-centric company. We want to make it easy for customers to buy everything on amazon.com. So, given that's the company mission, in my mind, our product mission statement should be building a product that caters to the needs of kids and makes it easy for them to access and buy what they need. It could be a hardware-based product, software, or it could even be a physical product. How does that sort of sound as an approach? Does this idea sort of make sense, tying the company mission to the product goal?
+
+Yeah, I think it sounds good.
+
+Perfect. So, as a next step, one other question in my mind is regarding constraints. Do we have any cost, timeline, or resource constraints?
+
+Considering Amazon, I don't think we will have some cost constraints, right? And I don't think there will be a resource constraint, but definitely, you know, we'll not be having ample resources. We need to be taken care of. From the timeline perspective, we are thinking to launch something in kind of an MVP within 5 to 6 months.
+
+Perfect. Okay, five to six months sounds reasonable. And then the other question in my mind is also, you know, as PMs, we take a lot of build versus buy decisions. So, we often try to understand whether we should build a net new product or just buy it off the shelf. Do we have any... I mean, I kind of took a stab at breaking down how we would decide build versus buy. One thing that came to mind is our team expertise, whether we have the technology and whether it's a growing market. It seems like all three—team expertise, the technology itself, access to AI products and the AI ecosystem of products, and the market, which is the kids—are all growing at a high pace. Then the question really is, do we have any insights on whether there are existing products that we can piggyback off of within Amazon's ecosystem and potentially just build some small features on, or should we build a net new product? So, I'd love to get your thoughts on that. Any insights as to whether there are some existing Amazon products that we should piggyback off of and potentially just reuse or build features on, or build a net new product?
+
+Sure, I think from my perspective, Amazon is already having some AI products into play, right? Like Amazon Alexa, right? And for kids, they are already having Amazon Kids Plus in play, right? So probably we can think over building a kind of integrated product with them or building something standalone, and probably we can see the synergies going forward if they can be integrated for the use cases which we are trying to basically solve for.
+
+Perfect. So maybe we can take a couple of trade-off decisions at the end to see whether it makes sense to integrate into Kids Plus or build something standalone.
+
+Sure, sounds great. So, give me a couple of seconds. I'm going to lay down a structure, and then I'll walk you through how I'm thinking about structuring this answer.
+
+Sure, please take the time.
+
+My structure really is the following. The first thing I would want to do is break down the personas that we're solving for, and then I'd want to understand their journey and their pain points as a second step. Third, I'd want to walk through a couple of solution options, fourth, prioritize, and then finally give you success metrics and summarize the answer. So, I'm thinking of that as a potential structure: breaking down user personas, pain points, coming up with a couple of solutions, prioritizing, and finally giving success metrics. Wanted to kind of get your take on how does that sound as a high-level approach? Any additions or modifications?
+
+Yeah, it sounds good to me. And I think I would love to double-check on the pain points that you’ll define. I would love for you to give a kind of prioritization approach to those pain points as well, to choose one or two of them. For the solution as well, we'll prioritize one of the solutions, defining the trade-offs of the solution you have chosen, and try to see how the new user journey will look from the standalone product point of view or from the integration within the existing product flow. And then, definitely, you know, you can define the metrics if the time permits for that.
+
+Perfect, great. So, give me a couple of seconds. I'm going to write down some potential segmentations for our user groups and then come up with a persona that we could pick or target.
+
+Sure.
+
+So, I wrote down a couple of different segments for kids aged 3 to 12 years. The first segment I wrote down is usage of technology products, and this could just be high, medium, or low. Second is their own personality or behavior because we're trying to design for kids with different behaviors. That could be in terms of... there could be introverts, there could be extroverts, there could be people who enjoy video games, there are influencers who are very social. So, those are some behaviors that I wrote down. Finally, I talked about accessibility from a psychological point of view, so if they have any physical disabilities, if they have any mental or emotional challenges, or if there's no major challenge. Those are some different segments that we created.
+
+I was thinking about these different segments and felt it would be helpful to prioritize the user segments based on our product goal, which was to acquire as many customers as possible, get as many kids in the door, and then also think about solving an interesting problem for one of these personas. I prioritized high usage, gamers, and then kids with some kind of mental or emotional health issues because this is a common problem for kids today. That's the persona that I came up with. We can give him or her a name. I named him Arian, and he's a 13-year-old, a gamer, and he has some mental health issues. I think this is an interesting user persona and a fairly large user segment that would allow us to solve for interesting pain points and come up with some cool solutions. How does that overall sound? Any questions?
+
+Okay, perfect. So, give me a couple more, like about 20 seconds. I'm going to write down Arian's user journey, thinking about different phases of the journey and some pain points.
+
+Sure.
+
+So, as we break down the user journey, we're thinking about it in phases. There's a pre-phase from using, let's say, a potential smart product, an in-phase when you're actually using it, and a post-phase when you've stopped using the product. I was thinking about a day in the life of Arian. Arian wakes up, probably checks his phone or different social media apps within the first 30 minutes to one hour of waking up. Then he gets ready, goes to school, and between 8:00 a.m. to 2 p.m., he's in classes, on his laptop, probably bored in a class and checking his laptop for different social media apps. He's on Snapchat, WhatsApp, Instagram, Twitter, Reddit. He could be on a number of different social media apps. After school, maybe he goes to some after-school activities, plays sports for two to three hours, comes home, plays a video game or two with his friends and people he met online, spends a bit of time watching TV or Netflix, does his homework, has dinner, during which he's probably on his phone quite a bit as well, and then goes to sleep. In my mind, this is a typical day in the life of a teenager. As we can see, there are multiple touch points with social media applications, software, even while doing school activities or something else. I'd be curious to get your thoughts on that. Does this approach make sense in terms of his user journey? Any additions?
+
+Yes, it does make sense, and it looks good to me till now.
+
+Perfect, sounds good. As I think about that journey, one of the big pain points that come to mind is the touch points. Of course, if he's at school, we can't do much to change that. He's at school and doing activities. The areas where we think we can help Arian are in his off time. There are a couple of hours in between where he's playing games for one to two hours, at dinner he's distracted a lot on different phone apps and games, and then he's watching TV. Those are some touch points that we have with him. As I think about that, one major pain point that comes to mind is off time. He's probably distracted a lot, and the lack of focus really comes through. He's never really off, always on some device or another during the day. The second thing that comes to mind is doom scrolling, this mindless interaction with technology. Third is the learning itself. While he is using a lot of software products, what is he getting out of it at the end of the day? Is he actually learning something, or is it improving his life, or is he just going about his day as usual? Those were the three pain points that came to mind. I'd love to get your high-level thoughts or approach on that.
+
+I think it does make sense, and I'm aligned with it. It looks good to me. I would love to hear your prioritization on this.
+
+Sounds great. Drilling down into this, one thing that definitely comes to mind is that the content that Arian is consuming is entertaining but not educational. That entertainment versus education piece comes out. The other thing
+I was thinking further about these different segments and felt that it would be helpful to prioritize the user segments based on our product goal, which is to acquire as many customers as possible. You know, get as many kids in the door and then also think about solving an interesting problem for one of these personas.
+
+I prioritized high usage gamers and kids with some kind of mental or emotional health issues because this is a common problem and challenge for kids today. So, the persona that I came up with, we can give him or her a name, I named him Arian. He's a 13-year-old gamer with some mental health issues. I think this is an interesting user persona and a fairly large user segment that would allow us to solve interesting pain points and come up with some cool solutions.
+
+How does that overall sound? Any questions?
+
+Perfect. So give me a couple more, like about 20 seconds, I'm going to write down Arian's user journey, thinking about different phases of the journey and then also some pain points.
+
+Sure, okay. So as we break down the user journey, we're thinking about it in phases. There's a pre-phase before using, let's say, a potential smart product, an in-phase when you're actually using it, and a post-phase when you've stopped using the product.
+
+I was thinking about a day in the life of Arian. Arian wakes up and probably checks his phone or different social media apps within the first 30 minutes to one hour of waking up. Then he goes to school, wakes up, gets ready, and goes to school.
+
+At school, between 8:00 a.m. to 2 p.m., he's in classes. He's on his laptop, probably bored in class, and checking his laptop for different social media apps. He's on Snapchat, WhatsApp, Instagram, Twitter, Reddit - he could be on a number of different social media apps. After school, maybe he goes to after-school activities, plays some sports for two to three hours, comes home, maybe plays a video game or two with his friends and people he met online, then maybe spends a bit of time watching TV or Netflix, does his homework, has dinner, during which he's probably on his phone quite a bit as well, and then he goes to sleep.
+
+So in my mind, this is like a typical day in the life of a teenager. As we can see, there are multiple touchpoints with social media applications and software, even while doing school activities or something else.
+
+I'd be curious to get your thoughts on that. Does this approach make sense in terms of his user journey? Any additions?
+
+It does make sense and I think it looks good to me so far.
+
+Perfect, sounds good. As I think about that journey, one of the big pain points that come to mind is the touchpoints. If he's at school, we can't do much to change that; he's at school and he's doing some activities. The areas where we think we can help Arian are in his off-time. There are a couple of hours in between where he's playing games for one to two hours. At dinner, he's distracted a lot by different phone apps and games. When he's watching TV, those are some touchpoints we have with him.
+
+So, one major pain point that comes to mind is off-time. He's probably distracted a lot; the lack of focus really comes through. He's never really off; he's always on some device or another during the day. The second thing that comes to mind is doomscrolling, this mindless interaction with technology. Third is the learning itself. While he is using a lot of software products, what is he getting out of it at the end of the day? Is he actually learning something or is it improving his life, or is he just going about his day as usual?
+
+Those were the three pain points that came to mind. I'd love to get your high-level thoughts or approach on that.
+
+I think it's aligned with my thoughts and looks good to me. I'd love to hear your prioritization on this.
+
+Sounds great. Drilling down into this, one thing that definitely comes to mind is that the content Arian is consuming is entertaining but not educational. The entertainment versus education piece stands out. Another aspect is skill-building. Is he actually learning a new skill, like learning the guitar or a new language? He's a curious kid, interested in many things, but is the content he's consuming allowing him to do that?
+
+Finally, are we also guarding for his mental health? He's a growing kid and probably has issues with his eyes being on a laptop or phone all the time. Studies say it impacts his brain because it's also growing, causing stress, anxiety, headaches, social problems due to his heavy use of media.
+
+Those are some ideas that came to mind drilling down on learning a bit further. Any specifics you would have me prioritize? If not, I could use that impact versus reach framework and then pick one of these.
+
+I would love you to choose from the latter one you talked about.
+
+Perfect. In terms of reach versus impact, I think that prioritizing between these, in my mind, skill-building and protecting mental health are two important ideas. The content itself has medium reach. Even though having educational content would be beneficial to kids and impact their learning, there's enough competition out there that the reach would be medium. Therefore, I would prioritize between skill-building and mental health.
+
+Between these two, I would say that in terms of severity and frequency of the pain point, the impact of protecting Arian's mental health will be higher than skill-building because it's a more critical need. So, I would say that the impact and reach of protecting his mental health is higher and therefore I'll pick the mental health pain point and then break that down further into solutions.
+
+Sure, please go ahead.
+
+Perfect. Give me a couple of seconds and I'll write down a couple of solution ideas here.
+
+Sure, I came up with three solutions I'd love to talk to you about. The first is a virtual reality body scanner. Imagine he has access to a VR headset that can scan his entire body, maybe works through a smartwatch, and can track every parameter: sleep, anxiety, do a 360-degree overview of his health, and then give him an analysis of how well he slept and give him ideas or tell him, "You're feeling a little stressed, here are things you can do." It gives him a holistic picture of his health.
+
+The second idea is parental controls for screen time. A screen time optimizer could reduce screen time on apps that are harmful to his mental health.
+
+The third idea is a hyper-personalized mental health agent that could take advantage of everything we know about Arian and provide a personalized experience. It could live on his smartphone or smartwatch, allowing him to interact with it continually, providing a guided experience around optimizing his mental health.
+
+So, the distinction between the first and the second would be that the first is a virtual reality body scanner, and the second is a hyper-personalized mental health agent, his assistant that lives on his devices and offers a guided experience throughout the day.
+
+Those are the three ideas. Again, using our impact versus reach framework, I could prioritize between the three and pick one.
+
+I would add effort as a parameter to prioritize as well, considering the technical bandwidth required. So, if you can also take effort into account, that will help in prioritization.
+
+Sounds great. I'll break this down in terms of impact, reach, and effort and then come back with a prioritized idea.
+
+Sure, go ahead.
+
+In my mind, using the framework of impact, reach, and effort, the virtual reality body scanner comes up as the optimal approach. It has a high impact on the severity and frequency of the mental health challenges we're solving. The reach is medium; parents especially would be very interested in optimizing this, and kids might be interested if they love VR technology. The effort is also medium, as there are existing platforms and technologies we could reuse. There are already body scanners, and Meta is investing in the metaverse with some open-source technologies.
+
+I was considering the mental health agent too, but the effort is quite high, with many barriers to entry in terms of regulation and access to health data. The VR body scanner is less invasive as it's more of a real-time scan, and we can assure users we won't store their information, making it less invasive compared to pre-training a model on personal data.
+
+I'd be curious to see if you're aligned with this. We can also discuss trade-offs, especially regarding health data privacy, and come up with success metrics.
+
+Sure, sounds good to me.
+
+The main pros of focusing on a VR body scanner would be its appeal to parents, who want to protect their children’s health and know every possible parameter. The only trade-off would be privacy and security, ensuring the data is stored and secured properly, only accessible to parents, and not used for training models. We would also make it engaging for the kids, so they would use it.
+
+Those are some trade-offs we need to think about and dive into further as we consider this solution.
+
+Sounds good to me. What further approach would you like to take? Metrics or the journey?
+
+100%. Let's briefly summarize the journey: The kid wakes up, activates their smartwatch, which pulls up a VR body scanner experience, showing health parameters and guidance for the day. At the end of the day, they use the scan again, check off their health checklist, and see progress in their health journey.
+
+Success metrics for acquisition would be the number of signups per week, customer satisfaction scores (1 to 7 or 1 to 10), and cannibalization metrics. We would evaluate the impact on daily active users and production for Twitch, as it's part of Amazon's ecosystem.
+
+If that sounds good, I'll summarize and provide final comments.
+
+Sure, sounds good to me. Please summarize.
+
+We started by discussing why we're building this: to make
+Between two of, uh, between the three of these, and then pick one and kind of go from there, I would, uh, just, uh, add on into this. With respect to, if you can also take into account effort as a parameter to prioritize, uh, that will also help because we are trying to build solutions, so we will need some technical bandwidth as well. So from that perspective, what kind of effort it will require, uh, reach, uh, into impact versus effort, that's what I would like you to work on in the prioritization methods for this.
+
+Sounds great, so, um, effort, absolutely. So, I'll break this down in terms of impact, reach, and effort, and then, uh, come back with kind of picking one idea over others and prioritize that.
+
+Sure, so in my mind, um, using the framework of impact, reach, and effort, the virtual reality body scanner comes up as the optimal approach. It has high impact, uh, in terms of the severity and frequency of what we're solving for, which is mental health challenges. The reach is medium; I think that, uh, parents especially would be very interested in, um, optimizing for this and then kids also to a certain extent, depending on how much they love VR technology, would be interested. And then the effort would also be medium because there are some existing platforms and technologies we could reuse. I know there are existing algorithms, for example, there are body scanners existing already. Um, Meta is investing a lot in the metaverse, and there are some open-source technologies around that. So for those reasons, I would pick that one.
+
+Um, I was thinking about the mental health agent too, but there the effort is quite high, and, uh, there are a lot more barriers to entry in terms of regulation because you need access to all of the person's health data and being able to pre-train models based on that, so that's a little bit dicey. But I feel like, you know, a VR body scanner, um, I would say is a little less dicey because it's more of a real-time scan and we can also, you know, tell the user we're not going to store your information, it's just, you know, whatever you want us to track, we can make it like that so that it becomes a little less invasive versus pre-training a model on, like, one particular person's data. Um, so yeah, that would be the rationale. I'd just be, like, curious to see if you'd be aligned with it. Uh, we can also talk about trade-offs because I understand, like, we're talking about people's health data, so discuss some trade-offs as well and then, um, and then come up with success metrics from there.
+
+Sure, it sounds good to me. Yeah, so the main pros of focusing on a VR body scanner would definitely be, uh, that parents would be very interested in this because parents want to, uh, you know, protect their children's health, and they want to know everything possible, every parameter possible to do that. So that 360-degree view is definitely very appealing. Uh, the only trade-off there would be in terms of privacy and security, so we'd want to, um, help the parents understand that, um, the data is being stored and secured, uh, properly, and also we'd want to say that, um, you know, it's only accessible to the parents and we're handling it in the appropriate way. This data is not to be shared anywhere; it's not going to be used to train any ML models and things. So those are some assurances that we'd have to offer. Um, and then also we'd make it engaging for the kids so, uh, we know that the kids will use it. So those would be some, like, trade-offs that we need to think about, um, and dive into further, uh, as we think of this solution.
+
+Sure, it sounds good to me. Uh, so yeah, what further approach would you like to talk about? Metrics or would you like to talk about the journey?
+
+Yeah, 100%. So, um, definitely we can briefly summarize the journey. The kid wakes up, uh, let's say they have their smartwatch, and then they activate their smartwatch. It pulls up a sort of an experience that scans their overall body, maybe it projects something, uh, into the vicinity and kind of shows them, you know, here are your health parameters and here's what you need to optimize for in the day, and it gives them some, like, guidance in the morning, let's say, when they wake up. So instead of being on their smartphone, maybe they start interacting with this, like, new VR body scanner, and now, you know, they have the right mindset going into their day. At the end of the day, um, maybe they use the scan again, and then they have a checklist of things that they've done to take care of themselves, they check it off, and then they see how they're progressing on their sort of health journey.
+
+Um, I was thinking about success metrics for that, and, uh, in my mind, um, what would be the—from an acquisition standpoint, would be interesting to see—is how many people we get signed up on the platform on a per-week basis because we really want that acquisition curve to go up. A secondary metric potentially would be to look at how satisfied the customers are on a score of 1 to 7 or 1 to 10. 1 to 7 is the NPS score, but you could also just look at a customer satisfaction score and we could offer some sort of a rating system. And then definitely some cannibalization metrics as we think about the ecosystem of Amazon products would be, um, you know, assuming that this is part of Kids Plus, what would be the drop-off on Twitch because that is also part of our product ecosystem? Um, and then looking at the daily active users and production for Twitch versus this new product would be another success metric. Um, so I'll pause there. Um, if that all sounds good, I'll quickly summarize, um, and kind of say what we did here.
+
+Sure, I think it sounds good to me, and probably I would like you to summarize in a nutshell, uh, and probably give your final comments.
+
+Sounds great. So, um, we thought that we started by talking about, you know, why are we building this. So we said that we want to make the lives of kids better aged 3 to 12, and we're Amazon, and, um, we want to be Earth's most customer-centric company. And for that reason, we think that we should be impacting all parts of the—all segments of the market in a positive way.
+
+Um, we decided that we would build for kids who have mental health issues and are potentially gamers, so we picked a user persona, Arian, who has, you know, some mental health challenges, stress, anxiety, the normal stuff that kids these days a lot of them have. And, um, we came up with, like, a journey of what a day in his life looks like, and then, um, then we said that, uh, we would prioritize, uh, learning and especially, like, learning about his own health as a, as a pinpoint and came up with a VR body scanner as a solution for solving how Arian can learn about his own mental and physical health and continue to track and make progress towards it. And then finally, we prioritized, um, a couple of success metrics: looking at acquisition in terms of signups, customer satisfaction as a secondary metric, and then finally, cannibalization in terms of evaluating what is the impact to daily active, uh, people, daily active users, and production on Twitch because that is also part of Amazon's ecosystem.
+
+Sure, I think it sounds good. Uh, I think thanks, PRA, for this session. Uh, I really liked your approach, the kind of approach you followed from, I think, starting from discovering the problem and probably eventually getting to the execution phase of that, and probably, you know, some, uh, I think moonshot solutions around building a VR solution, right? Gamification models and all, which could be a kind of an add-on to it, and, and probably, I think definitely, you know, acquisition is a key metric out here, and, uh, I believe that we can also talk about engagement, eventually, kind of an eventual engagement because Amazon is a well-established company now, and probably acquisition to a product won't be much of a problem, but an eventual, uh, what we say, eventual engagement, uh, could be a thing, or, you know, eventual signups to the product, uh, could be a problem. So you talked about signups, and probably that was, you know, indicative in the metric as well, so I think I'm aligned on that. Overall, it's a good, uh, approach you took into account, and, uh, yeah, uh, I think thanks for your time.
+
+Yeah, thank you so much. Hey everyone, it's Kenton Kivestu here, the founder of RocketBlocks. Thank you so much for watching this mock interview video. I hope you found it informative and helpful as you are getting ready to prepare for your own interviews and hopefully landing that job offer you are excited about. We have a ton of great content on the RocketBlocks channel coming out on a weekly basis: mock interviews, mini-lessons, and chats with our RocketBlocks experts. So if you haven't subscribed yet already, please do so. There is a big red button below, and if you hit that, you'll get all of our content as soon as it comes out. Thanks for watching and have a great day.
+Solution sure, it sounds good to me. So, yeah, what would you further approach? Would you like to talk about metrics, or would you like to talk about the journey?
+
+Yeah, 100%. So, definitely, we can briefly summarize the journey. The kid wakes up. Let's say they have their smartwatch, and then they activate their smartwatch. It pulls up a sort of an experience that scans their overall body. Maybe it projects something into the vicinity and kind of shows them their health parameters and what they need to optimize for in the day. It gives them some guidance in the morning when they wake up. Instead of being on their smartphone, maybe they start interacting with this new VR body scanner. Now they have the right mindset going into their day. At the end of the day, maybe they use the scan again, and then they have a checklist of things that they've done to take care of themselves. They check it off and then see how they're progressing on their health journey.
+
+I was thinking about success metrics for that. In my mind, from an acquisition standpoint, it would be interesting to see how many people we get signed up on the platform on a per-week basis because we really want that acquisition curve to go up. A secondary metric potentially would be to look at customer satisfaction on a scale of 1 to 7 or 1 to 10. 1 to 7 is the NPS score, but you could also just look at a customer satisfaction score. We could offer some sort of a rating system. Then, definitely, some cannibalization metrics, as we think about the ecosystem of Amazon products, would be assuming that this is part of Kids Plus. What would be the drop-off on Twitch because that is also part of our product ecosystem? Then, looking at the daily active users and production for Twitch versus this new product would be another success metric.
+
+If that all sounds good, I'll quickly summarize and say what we did here.
+
+Sure, I think it sounds good to me. Probably, I would like you to summarize in a nutshell and give your final comments.
+
+Sounds great. We started by talking about why we are building this. We said that we want to make the lives of kids better, aged 3 to 12. We're Amazon, and we want to be Earth's most customer-centric company. For that reason, we think that we should be impacting all segments of the market in a positive way. We decided that we would build for kids who have mental health issues and are potentially gamers. We picked a user persona, Arian, who has some mental health challenges, stress, anxiety, the normal stuff that a lot of kids these days have. We came up with a journey of what a day in his life looks like. Then, we said that we would prioritize learning, especially learning about his own health, as a pinpoint and came up with a VR body scanner as a solution for solving how Arian can learn about his own mental and physical health and continue to track and make progress towards it. Finally, we prioritized a couple of success metrics: looking at acquisition in terms of sign-ups, customer satisfaction as a secondary metric, and then cannibalization in terms of evaluating the impact on daily active users and production on Twitch, because that is also part of Amazon's ecosystem.
+
+Sure, I think it sounds good. Thanks for this session. I really liked your approach, the kind of approach you followed from discovering the problem and eventually getting to the execution phase of that. You know, some moonshot solutions around building a VR solution, gamification models, and all could be an add-on to it. Definitely, acquisition is a key metric here. I believe we can also talk about engagement, eventual engagement, because Amazon is a well-established company now. Probably, acquisition to a product won't be a much problem, but eventual engagement could be a thing. Eventual sign-ups to the product could be a problem. You talked about sign-ups, and that was indicative in the metric as well. I think I am aligned on that. Overall, it's a good approach you took into account. Thanks for your time.
+
+Thank you so much.

@@ -1,0 +1,1468 @@
+here hey Evelyn how are you doing great
+
+I'm very excited Rachel me too Evelyn
+
+it's so nice to meet you let me
+
+introduce myself I'm Rachel I'm an
+
+Enterprise product lead at an AI startup
+
+called Arena uh we help uh large
+
+Enterprises make decisions using AI
+
+models uh before I was at Arena I was a
+
+staff product manager at meta where I
+
+was building uh or collaborating with
+
+teams to build uh recommendation systems
+
+uh personalization systems and content
+
+Distribution Systems so that's roughly
+
+about me and a nutshell uh why don't you
+
+tell me a bit about
+
+yourself yeah thank you so much Rachel
+
+my name is Evelyn uh uh most recently I
+
+was at corsera I was building platform
+
+features prior to that worked at various
+
+different companies including Uber so I
+
+would say my expertise is really in
+
+Marketplace and growth um right now I'm
+
+actively interviewing and I'm super
+
+excited that I get this opportunity to
+
+get your a coach oh wonderful I am a
+
+huge fan of especially corsera in these
+
+I have taken a few classes there and
+
+it's a wonderful platform
+
+Evelyn let's imagine that you are a
+
+product matter manager at meta and you
+
+have five months sorry six months to
+
+evaluate if meta should enter the
+
+fitness
+
+space got it so what what we are trying
+
+to figure out is whether or not meta
+
+should enter into the fitness space um
+
+great I guess to start um I love to just
+
+clarify a few things with you when we
+
+say enter a new fitness space are we
+
+thinking about potentially leveraging
+
+some of the meta portfolio or this is a
+
+brand new space that we are trying to
+
+get
+
+into so ideally if we have six months I
+
+think it's best to use meta's
+
+portfolio
+
+and leverage our existing features to
+
+see if there is value here how do you
+
+think this aligns with meta with meta's
+
+Direction overall what do you see as
+
+opportunities here before we dive too
+
+deep yeah yeah um so I think to tie back
+
+to meta Vision which is to give people a
+
+space so that they could build
+
+communities and bring the whole world
+
+close together I think the fitness base
+
+makes a lot of sense
+
+because how people spent time these days
+
+are very
+
+fragmented meta started off as a social
+
+media Network Facebook I think nowadays
+
+people probably spend less time because
+
+there are so many competitors Tik Tok um
+
+Google YouTube um so I think Fitness
+
+could be a very strategic Li because
+
+people are spending more time on Fitness
+
+they probably spend more than five 10
+
+minutes workout
+
+than couple seconds or minute watching
+
+social media beats so I think
+
+strategically it makes a lot of sense
+
+from an engagement perspective and
+
+outside of the engagement what do you
+
+think about the sentiment towards
+
+Fitness or like building Community
+
+around Fitness do you see examples where
+
+communities are being built around
+
+Fitness absolutely absolutely um
+
+Community is if not the most important
+
+one one of the most important Libra
+
+because
+
+people find
+
+more motivation and interest when they
+
+have a lot of people they could work
+
+with and I think that's one of the power
+
+of the Facebook or The Meta Community
+
+there's already so many monthly and
+
+weekly active user so I think that's
+
+like the community piece is probably
+
+easy to get okay okay sounds
+
+good so I guess we touched a little bit
+
+about the engagement I wanted to use
+
+that as um guiding principle um in order
+
+for me to build this Fitness product
+
+utilizing existing Facebook or meta
+
+portfolio I'm going to keep the
+
+engagement in mind um then I will move
+
+on to how I usually structure the
+
+product sense I love to brainstorm on
+
+who are we building this
+
+for what their motiv ation or pinpoints
+
+are and then from there I think I could
+
+uh pitch a few Solutions with you and
+
+then from there probably figure
+
+out um metrics how to measure success
+
+and then what the end to-end experience
+
+look like how does that sound to you
+
+that sounds wonderful thank you awesome
+
+so to start with who are we building
+
+this for
+
+um I think of Fitness as
+
+a I guess two-sided Marketplace um at
+
+one hand there are uh the people who
+
+provide content so like Supply the
+
+content for Fitness they might be coach
+
+uh or influencer and then on the other
+
+hand there is the demand side which are
+
+the audience who consume the fitness
+
+information um when I think about supply
+
+and demand uh there definitely more
+
+influencers trying to enter the space
+
+but in terms of the market size I still
+
+think there are more
+
+people consuming the information um so
+
+they could become more um like more fit
+
+or healthier so I think the demena is
+
+where I wanted to focus on um
+
+okay so breaking that down a a little
+
+bit more when I think about the them men
+
+side they're also um individual Fitness
+
+level there might be people who are just
+
+work out on a daily basis um that's I
+
+would consider them like athletes and
+
+then there are people who are just maybe
+
+like casually working out maybe one or
+
+two times a week and then there are
+
+people
+
+who either don't have a habit with they
+
+just don't work out um and when I think
+
+about the fitness level and where I
+
+might have the most success I think
+
+about how big the audience is how much
+
+impact the fitness product could drive
+
+and then how much effort because we are
+
+trying to build this thing out in six
+
+months um I think the
+
+Casual workout people has the highest
+
+reach
+
+um if I build something that they use
+
+probably will have medium to large
+
+impact in terms of confidence meta has
+
+so much data I could tap into um so I
+
+think confidence-wise I can definitely
+
+validate it how does that sound to you
+
+wonderful I really like it and I really
+
+like that you're giving me a bit of like
+
+a double segmentation here orienting me
+
+around okay what is the marketplace at a
+
+high level then going down deeper and
+
+then giving me a very good
+
+prioritization method so I understand
+
+what's guiding your selection this is
+
+very um
+
+helpful thank you so much so shall we
+
+move on to maybe like focusing on the
+
+the demand side casual workout I want to
+
+think about their pinpoints um okay so
+
+the pinpoints um I consider myself a
+
+casual workout I don't do it every day
+
+um couple of the pinpoints
+
+um come to mind one is um just the
+
+schedule um a lot of professionals like
+
+working professionals um they have a
+
+busy schedule so workout might not be
+
+something that's already in their daily
+
+routine so that's one the other one I
+
+think is related to like a equipment um
+
+workout could be many different things
+
+um but but some requires like a punching
+
+bag or a treadmill not everyone has
+
+access to that and I think the third one
+
+is
+
+um a combination of different things but
+
+I think the summary is
+
+motivation uh people might not find
+
+motivated enough um to get up in the
+
+morning to work out or they could get
+
+bored and then just drop out so I think
+
+motivation
+
+is like a summary of the pinpoint that a
+
+lot of casual workout people might face
+
+when they are trying to decide what to
+
+do uh I'm going to pause right there
+
+just to get your reaction on how do
+
+these pin points resonate with you is
+
+there any direction you want me to focus
+
+a little bit more on first of all thank
+
+you for checking in with me I think
+
+these all make sense I think where do
+
+you think that understanding what to do
+
+and knowing what to do where do you
+
+think that fits in
+
+here I
+
+think to help
+
+me figure out what to do here I would
+
+probably leverage a couple things uh the
+
+first no no I I didn't explain myself
+
+well I'm sorry I meant when you're
+
+thinking about the people the Casual uh
+
+worker
+
+outter how do you think access to
+
+information influences their ability to
+
+become more fit or to meet their
+
+goals I think it's relevant to what they
+
+are looking for and I think meta might
+
+have the network they can tap into to
+
+look for the information like maybe they
+
+can look up what their friends are doing
+
+or they could look up to what their
+
+coaches coach is recommending so so I
+
+think uh the social graph I think that
+
+might be a feature that meta is known
+
+for is fine-tuning that connection and
+
+the information shared among uh these
+
+people so I definitely think the
+
+information plays a huge part
+
+especially in terms of information and
+
+then how these casual workouts people
+
+could get help from okay cool when
+
+you're comparing and information and
+
+motivation as two problems how do you
+
+think about which of these is more
+
+important to prioritize how do you go
+
+about
+
+that I think they are
+
+interrelated um a lot of people lack
+
+motivation
+
+because they don't know where to
+
+look it's daunting it is daunting
+
+and a lot of people probably feel that
+
+about meta too meta was around at least
+
+10 plus years and over time meta has
+
+so many products um and with each
+
+product there's different pieces of
+
+information so for casual workout folks
+
+the information might be daunting so
+
+they don't necessarily know where to
+
+look for that help that's why I think
+
+like the fitness is interesting and
+
+definitely there's already a lot of
+
+portfolio within meta that could be
+
+built around driving the wellness and
+
+health for the
+
+users and when you're thinking about
+
+these problems how would you validate
+
+which of these problems is the most
+
+pressing uh in terms of validation
+
+um meta has a lot of data I definitely
+
+wanted to tap into that uh I also would
+
+argue there's information outside of
+
+meta um like the trends or Market map or
+
+even
+
+with past covid how People's Health
+
+habit evolve I think there's a lot of
+
+first and thirdparty quantitative and
+
+qualitative uh study I could study uh
+
+look into to see if that validates my
+
+hypothesis that information over
+
+overload could be one of the hindrance
+
+that prevents people to work out so it's
+
+interesting you're saying there's both
+
+that aspect of too much information and
+
+not enough information at the same time
+
+which makes it very daunting to users as
+
+you as you said a second ago yeah the
+
+right information having information is
+
+not enough it has to be I think right
+
+right place right time and right
+
+information in
+
+general wonderful okay so uh I think how
+
+I might prioritize these pinpoints and
+
+thank you for guiding me to think more
+
+about the information versus like which
+
+specific pinpoints might be most related
+
+to meta's Mission and strength which is
+
+a sea of data sea of information I would
+
+say information plays a huge part in
+
+terms of driving people's motivation
+
+uh we talked about schedule we talked
+
+about equipment but I think motivation
+
+has that then diagram was the
+
+information that meta already has so I
+
+think that is the pinpoint that we can
+
+probably build something quickly to
+
+address I know that makes a lot of sense
+
+I know we touched about this before but
+
+do you think there are opportunities
+
+here um in terms of the pain points in
+
+terms of motivation do you think that
+
+there's an opportunity or let me
+
+rephrase this how do you think this
+
+might impact the emotional connection
+
+that people using meta have with
+
+meta I think in emotional
+
+connection could be elevated and I think
+
+that could strengthen the engagement
+
+because most meta users or Facebook or
+
+Instagram or uh WhatsApp users use
+
+the product for very specific purpose
+
+like browsing people's
+
+activity if um we are able to unlock the
+
+motivation by providing the right
+
+information at the right time I think
+
+the emotional connection could be
+
+boosted because not only um their
+
+activity is just around possibly
+
+browsing people's feed or images um but
+
+it's also about having a shared
+
+experience and I think like Fitness is a
+
+shared experience um that could motivate
+
+other people so emotional connection I
+
+definitely see it trending upwards with
+
+the fitness
+
+Aton I love that you bring up like the
+
+shared experiences of it because I think
+
+it really ties to meta's Mission very
+
+nicely yeah yeah like when I see a
+
+friend working out and building out
+
+sixpack I want to do that too like it's
+
+the season of New Year resolution one
+
+person influencing one another and we
+
+all get like six packs right yes exactly
+
+okay what do you want to do next ah okay
+
+uh so tying back to the solution that
+
+could solve for that motivation and
+
+boost emotional connection using what we
+
+already have in the meta portfolio uh I
+
+think
+
+couple
+
+like lwh hanging fruit ideas that I had
+
+one is around like reminder like we
+
+touched on there are so much information
+
+there's so many notification going on
+
+but I think related to Fitness if we
+
+could serve some sort of like front and
+
+center uh popup at the time someone
+
+needs to work out that could be a really
+
+good uh Habit formation to motivate
+
+people it's time to work out uh I think
+
+tying back to the connection piece
+
+another idea could be forming some sort
+
+of a social workout group so if I know
+
+uh I live in Washington DC there are
+
+people in the same area similar age all
+
+are interested in developing some sort
+
+of a healthy habit we could form a group
+
+and start working out and I think that
+
+goes back to the emotional connection
+
+like I'm no longer working alone I am
+
+working out with other people so I think
+
+that kind of a motivation could be like
+
+double work
+
+quadrupod um the third idea that I had
+
+um is probably related to
+
+the the
+
+personalization motivation um aspect I
+
+think because meta is investing heavily
+
+in the arvr space with the information
+
+the social graph it is possible to build
+
+out some sort of like personalized
+
+experience that can be experienced
+
+through AR VR platform um maybe like
+
+when I put the headset on um it's
+
+knowing my brain waves or my my my my
+
+heartbeat and then suggest the best kind
+
+of workout at the moment so in terms of
+
+like these kind of three ideas um before
+
+you go into prioritization I have a few
+
+question for you I love your ideas when
+
+you're thinking about for example like
+
+that front and center notification that
+
+you meant and thinking about like that
+
+social NW work group are there
+
+opportunities to connect these together
+
+to kind of like maybe you don't need to
+
+schedule in advance like are there any
+
+other do you see any opportunity here to
+
+kind of like bring these together a
+
+bit
+
+absolutely um absolutely I think they
+
+are lizing a part about personalized uh
+
+preference and I think meta is really
+
+good at that um as part of either like
+
+onboarding or activation flow uh meta
+
+could also pause
+
+how do people want to work out do they
+
+like to work out by themselves or do
+
+they like to work out alone among other
+
+people so I think those two pieces uh
+
+can definitely connect the notification
+
+and then the social group aspect so
+
+let's say let me play this out for you a
+
+bit let's say I know that you Evelyn
+
+like to work out in a group and let's
+
+say I know that your friend Lisa is just
+
+about to go on a run in 15 minutes how
+
+does this connect for you yeah yeah I
+
+love that how I love how it plays out if
+
+I see Lisa is going out for a
+
+run and I'm just having a sluggish day
+
+and I get a
+
+notification saying hey your friend is
+
+going for a run would you like to join
+
+her to me that kind of a emotional
+
+booster that we talked about is probably
+
+going to help
+
+me
+
+like get out of my like oh I'm having a
+
+sluggish day and then just put on my
+
+shoes and join Lisa so I think those two
+
+definitely could be a sequence one
+
+leading to another um so yeah I think
+
+that could play out really well on the
+
+flip side of it what do you think is the
+
+best the big risk
+
+of this approach of like letting you
+
+know that Lisa is going on a
+
+run
+
+uh I
+
+think
+
+personalized data being shared could be
+
+one of the risk I know in the past
+
+there's a lot of concern and gar rails
+
+around which data do people feel
+
+comfortable being shared what if Lisa
+
+wants to go for a run and then all of a
+
+sudden I run down the street and she
+
+doesn't even wanted to see me I I think
+
+that will ruin Lisa's experience a
+
+little bit hopefully it doesn't ruin her
+
+experience but yeah I it might make her
+
+a bit question and it might be a bit
+
+more dangerous than that as well for
+
+sure yeah the creepiness is for sure
+
+when you're thinking about I I love I I
+
+love this idea of like thinking about
+
+how we can motivate people to kind of
+
+like Let each other know about this and
+
+make this a bit more a social experience
+
+when you're thinking about the VR AR
+
+piece here and then thinking about the
+
+social workout group I don't know let's
+
+say it's a snowstorm outside in uh in
+
+Boston and you still have electricity
+
+but you're definitely not going to the
+
+gym and there's no way you're going
+
+running so how do you think you can tie
+
+these things together as well yeah I
+
+love that example because it happened to
+
+me last week it was snowing really hard
+
+outside and I would love to go out I
+
+think in that case the arvr makes a lot
+
+of sense because it solves the uh
+
+motivation caused by external
+
+factors if I have a headset and then if
+
+I could build that in as part of like
+
+hey it's six o'clock time to get up and
+
+work out there's no excuse of not going
+
+outside because I have a
+
+like headset I could put on and then the
+
+headset could would recommend something
+
+that uh helps me work out and stay
+
+healthy and how would you tie The
+
+Social Network element here or like the
+
+community piece
+
+here yeah uh something I could see as
+
+building into
+
+is the social element could be the
+
+moment I put my headset on it's
+
+detecting that Evelyn is online and then
+
+also simultaneously seeing who else
+
+might also be online and then all of a
+
+sudden maybe I am running down the
+
+virtual track with Lisa or Luke or
+
+whatever um I think that's where things
+
+could come
+
+together wonderful so we have
+
+brainstormed a few Solutions some of
+
+them you you brought yourself and some
+
+of them you kind of like brainstormed a
+
+bit with me and thank you for
+
+collaborating with me on this what do
+
+you think is the most impactive solution
+
+here uh in terms of impactful solution
+
+um I wanted to think
+
+about personalized
+
+experience if a person is a solo
+
+workout then I would say
+
+probably the
+
+reminder is a loow hanging fruit I feel
+
+confident to build this out uh within
+
+the time constraint like six months and
+
+then get it out and validate what kind
+
+of impact it H has but if it's yes if
+
+you H if you see that that has that
+
+impact that you're looking for what what
+
+direction would you want to go into
+
+more Direction Number One um I would try
+
+to bundle other elements so if reminder
+
+works works great then I probably uh
+
+would see if there are other social
+
+element I could tie into like the social
+
+group or um forming some sort of like
+
+competition like friendly competition uh
+
+with other friends um so at the same
+
+time everybody gets like that kind of a
+
+reminder to work out so those are a
+
+couple ideas that could be bundled after
+
+early success of the
+
+impact
+
+interesting um last question I I this
+
+usually isn't part of what I ask in
+
+these interviews but I'm a bit curious
+
+how would you think about bringing this
+
+to Market like what would you try to do
+
+in terms of like a go to market plan to
+
+start this if you're if you're running a
+
+test for example are you trying to
+
+promote this test
+
+or how are you thinking about that
+
+uh yeah that's a great question I think
+
+maybe
+
+March is the wellness awareness month I
+
+think that could be maybe it's March
+
+maybe it's April I'm not sure but there
+
+is a month that's called Wellness
+
+awareness month I did not know that
+
+thank you for telling me that's very
+
+creative I think that could be an
+
+opportunity for goto
+
+Market um and what met I could do is
+
+leveraging this kind of
+
+opportunity uh to make a splash in terms
+
+of like oh like when you log on to like
+
+um Facebook or Instagram now you can put
+
+in um like some sort of personalized
+
+request um if you want to be more active
+
+using the social graph using the
+
+information we already have about you to
+
+not you alone on the way to set healthy
+
+Habit to motivate you to I don't know
+
+for me it's lose 10 10 pounds or
+
+something like that and then rest assure
+
+meta has a lot of data that throughout
+
+the workout Journey um that could be a
+
+good like value proposition where PR um
+
+as a goto Market you you bring a a
+
+really interesting point there bringing
+
+the idea of weight loss and meta's
+
+received a lot of scrutiny over you know
+
+teenage girls and Body Image issues how
+
+do you handle that with this kind of
+
+experience you know when people often
+
+tie Fitness to weight loss and that
+
+doesn't necessarily play out well
+
+especially for teenagers how do you
+
+ensure safety
+
+here I love this question and how I
+
+would tackle it goes back to our earlier
+
+point about emotional connection I think
+
+a lot of
+
+people over index on Fitness or losing
+
+weight because they don't have a good
+
+threshold to measure what is healthy and
+
+there are a lot of false information on
+
+social media I think what meta could do
+
+is leveraging the
+
+people beyond their immediate Network
+
+like a lot of teenagers they see other
+
+teenagers losing weight so they wanted
+
+to follow suit but what meta could do is
+
+bring in more of a trust Ed and
+
+authoritative um voice to influence them
+
+what health could mean whether that's
+
+like BMI or whatever there are multiple
+
+different ways especially with the feed
+
+um I think meta could introduce that to
+
+build that healthy balance and
+
+boundaries for those who over index on
+
+weight
+
+loss cool yeah I think that's a very
+
+good place to end because I think uh
+
+it's it's something really important to
+
+think about how do you make sure this is
+
+a safe experience that doesn't uh cause
+
+more harm than good so thanks for um
+
+thinking through this with
+
+me okay uh let's do a quick debrief um
+
+Evelyn how do you think this felt or how
+
+do you think this
+
+went I had a lot of fun and I think
+
+that's the essence of product sense
+
+right like it doesn't feel like you
+
+asked me a question and I have to go
+
+through the circle framework or whatever
+
+or use rice framework it felt like a
+
+collaborative brainstorming process
+
+which I really like uh I think I get a
+
+little bit sidetracked in terms of like
+
+connecting all the pieces together like
+
+at one hand we're talking about
+
+emotional connection and then there's
+
+like the information over low I think
+
+going back to meta's portfolio it just
+
+they are so many things I need to
+
+consider um so I think that's probably
+
+one of the like feedback I would give
+
+myself to really
+
+clarify which existing portfolio how
+
+that ties back to the pinpoints and user
+
+pinpoints and then how does that like
+
+Drive the overall outcome that we wanted
+
+to achieve whether that's daily weekly
+
+or whatever active
+
+users wonderful um from my point of view
+
+I think I really like the collaborative
+
+aspect of this as well I think you know
+
+people go into these product fence
+
+interviews and they think you know oh I
+
+need to know everything and I need to
+
+lead the interview but the fact is it's
+
+very collaborative in my opinion and one
+
+of the key things that our evaluated on
+
+is you know how do you are how coachable
+
+are you how do you respond to the
+
+interviewer's nudges and I really liked
+
+how you responded um to the nudges that
+
+I gave you you know if I'm thinking
+
+about you know what are the five things
+
+that you get evaluated on in a product
+
+sense
+
+interview uh actually before I go there
+
+in my opinion a product sense interview
+
+is about taking an ambiguous problem
+
+statement and turning it into an
+
+actionable hypothesis or solution or
+
+product Vision right and I think you
+
+accomplished a lot of this here right
+
+you were able to tie this to meta's
+
+Mission and think about you know and
+
+when I pushed you on it um you were able
+
+to um iterate with me a bit to get to
+
+understanding and not just the metrics
+
+but what does it mean for the emotional
+
+connection what does it mean for the
+
+social network of being able to build
+
+community Through Fitness right the
+
+second piece audience uh definition I
+
+really like that you took me through a
+
+top down approach of showing me the
+
+market like the overall ecosystem and
+
+then prioritizing a specific set of
+
+users with a framework I could follow
+
+problem identification I think there it
+
+was really cool to see how we iterated a
+
+bit with each other um trying to clarify
+
+a bit more of how you're thinking about
+
+two different uh problems and then kind
+
+of
+
+like nailing down the problem that you
+
+want to solve and then the solution
+
+exploration um I think there you had
+
+really great ideas the one thing I would
+
+say there is I would want to see the the
+
+The Social Network piece not just the
+
+social graph but the social network and
+
+the Mission Guide a bit more through the
+
+solution space which is fine it's
+
+something that's hard to come up with
+
+and as you said yourself there's a bit
+
+of a risk here because for example for
+
+your notification framework if Lisa
+
+doesn't want other people to know that
+
+Lisa is working out then you know we
+
+probably shouldn't do that so but I
+
+think also like the idea of oh who's
+
+online when you're with your headsets on
+
+as like as a way to work out that kind
+
+of like gives me a longer term Vision
+
+meaning okay you start with a
+
+notification and then you think about
+
+building out the VR headset which ties
+
+up very nicely um um with the with the
+
+six months Horizon um it was pretty easy
+
+to follow you I think at some points you
+
+may have been a bit nervous which is
+
+very natural in these cases and you know
+
+nobody is perfect in communicating pom
+
+pom pom unless they pretty much wrote
+
+down the solution step by step word by
+
+word it's not realistic to think about
+
+and I did throw a wrench at you actually
+
+threw two wrenches at you in the end the
+
+first one was how you take it to Market
+
+which is usually we don't have time for
+
+these questions but I Lov your idea of
+
+the fitness awareness month as like a
+
+moment here um so I thought that was
+
+super fun and I thought you know the
+
+conversation of like how do you think
+
+about safety and teen safety in terms of
+
+this problem I think it's a really
+
+important uh thing to solve so overall I
+
+had a lot of fun with you and I hope you
+
+enjoyed this as
+
+well thank you I did thank you wonderful
+
+hey everyone it's Kenton kest here the
+
+founder of Rocket blocks thank you so
+
+much for watching this mock interview
+
+video I hope you found it informative
+
+and helpful as you are getting ready to
+
+prepare for your own interviews and
+
+hopefully Landing that job offer you are
+
+excited about we have a ton of great
+
+content on the rocket blocks Channel
+
+coming out on a weekly basis mock
+
+interviews mini lessons and chats with
+
+our rocket blocks experts so if you
+
+haven't subscribed yet already please do
+
+so there is a big red button below and
+
+if you hit that you'll get all of our
+
+content as soon as it comes out thanks
+
+for watching and have a great
+
+day
+
