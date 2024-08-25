@@ -4,18 +4,20 @@ from sentence_transformers import SentenceTransformer
 from sentence_transformers import SentenceTransformer,util
 import json
 import dspy
-from dspy.evaluate import Evaluate
-from dspy.teleprompt import BootstrapFewShot
 from dspy.teleprompt import LabeledFewShot
 import copy
 from openai import OpenAI
+from torch import Tensor
+from transformers import AutoTokenizer, AutoModel
+from docx import Document
+import json
 
 class Assess(dspy.Signature):
-    """Which part does this content belong to? 优先label到部分目录中的章节去。Strictly label in this format and don't output anything else since your answer will be directly use, and don't put any quotes inside. Even there's only one label, repeat twice:Chapterxx下的Sectionxx,和Chapterxx下的Sectionxx"""
+    """Which part does this content belong to? 优先label到部分目录中的章节去。Strictly label in this format and don't output anything else since your answer will be directly use, and don't put any quotes inside. Even there's only one label, repeat twice:Chapterxx,Sectionxx,和Chapterxx,Sectionxx"""
     part_chapters = dspy.InputField(desc="部分目录")
     pre_chapter = dspy.InputField(desc="上一个部分的章节")
     current_content = dspy.InputField(desc="给定的内容")
-    label = dspy.OutputField(desc="Chapterxx下的Sectionxx,和Chapterxx下的Sectionxx")
+    label = dspy.OutputField(desc="Chapterxx,Sectionxx,和Chapterxx,Sectionxx")
 class Predict(dspy.Module):
     def __init__(self):
         super().__init__()
@@ -23,6 +25,138 @@ class Predict(dspy.Module):
     def forward(self, part_chapters, pre_chapter, current_content):
         return self.prog(part_chapters=part_chapters, pre_chapter=pre_chapter, current_content=current_content)
 
+def get_font_size(run):
+    """
+    获取文本字号
+    """
+    if run.font.size:
+        return run.font.size.pt
+    return None
+def extract_tag_data(writing_style):
+    # 检查writing_style是否为列表，如果是，获取第一个元素
+    if isinstance(writing_style, list) and len(writing_style) > 0:
+        writing_style = writing_style[0]
+
+    # 确保writing_style是字典
+    if isinstance(writing_style, dict):
+        return writing_style.get("tag", "")
+
+    # 如果传入的数据结构不对，返回空字符串
+    return ""
+
+def split_into_sentences(text):
+    sentences = text.split('. ')
+    return ['.'.join(sentences[i:i+2]).strip() + '.' for i in range(0, len(sentences), 2)]
+
+def remove_duplicates(writingstyledataList):
+    unique_styles = []
+    seen = set()
+
+    for item in writingstyledataList:
+        # 将每个字典对象转换为字符串进行比较
+        item_str = json.dumps(item, sort_keys=True)
+        if item_str not in seen:
+            seen.add(item_str)
+            unique_styles.append(item)
+
+    return unique_styles
+
+def process_document(document):
+    writingstyledataList=[]
+    structure = {
+        "writingstyledataList": [],
+        "chapterList": [],
+        "allocationdataList": []
+    }
+
+    current_chapter = None
+    current_section = None
+    current_section_list = []
+    allocationdataList=[]
+    last_writing_style = None
+
+    for para in document.paragraphs:
+        text = para.text.strip()
+        gentext = f"""
+                            analyzing this paragraph {text} and then output the writing style json as follows
+
+                            "clout": ,
+                            "input": to describe the text feature in your input file e.g. incontinuous conversation of xxx,
+                            "writing_goal": write for whom for what ,
+                            "writing_format": paragraph?bullet points? or what,
+                            "analytical_thinking": ,
+                            "authentic": ,
+                            "difference": keep it empty,
+                            "language": ,
+                            "tag": ,
+                            "emotional_tone": ,
+                            "participant": ,
+                            "your_role": what perspective to take, participant? observer? 
+
+                            noted the tag should be only one to two words.directly output the json starting from a bracket and ending with a bracket. Don't output anything else 
+                            """
+        if not text:
+            continue
+
+        if para.runs:
+            font_size = get_font_size(para.runs[0])
+
+            if font_size == 20:
+                if current_chapter:
+                    structure["chapterList"].append({
+                        "chapter": current_chapter,
+                        "sectionList": current_section_list
+                    })
+                current_chapter = text
+                current_section_list = []
+
+            elif font_size == 16:
+                current_section = text
+                current_section_list.append({
+                    "writingStyle": "default",
+                    "section": current_section
+                })
+
+            else:
+                sentences=split_into_sentences(text)
+                for sentence in sentences:
+                    structure['allocationdataList'].append({
+                        "current_content": sentence,
+                        "label1": f"Chapter{current_chapter},Section{current_section}",
+                        "label2": f"Chapter{current_chapter},Section{current_section}"
+                    })
+                if last_writing_style:
+                    prompt = f"Can the following writing style be applied to this paragraph?\n\nWriting Style:\n{last_writing_style}\n\nParagraph:\n{text}\n\nAnswer only 'Yes' or 'No'"
+                    response = llmwriting(prompt)
+                    if 'Yes' in response:
+                        writing_style = last_writing_style
+                    else:
+                        writing_style = llmwriting(gentext)
+                        last_writing_style = writing_style
+                else:
+                    writing_style = llmwriting(gentext)
+                    last_writing_style = writing_style
+
+                try:
+                    writing_style_json = json.loads(writing_style)
+                    print("writing style",writing_style_json)
+                    print("writing style 0",writing_style_json[0])
+                    writingstyledataList.append(writing_style_json[0])
+                    writingstyledataList= remove_duplicates(writingstyledataList)
+                    structure["writingstyledataList"]=writingstyledataList
+                except json.JSONDecodeError:
+                    print(f"Error decoding writing style: {writing_style}")
+
+                if current_section_list:
+                    current_section_list[-1]["writingStyle"] = extract_tag_data(writing_style_json)
+
+    if current_chapter:
+        structure["chapterList"].append({
+            "chapter": current_chapter,
+            "sectionList": current_section_list
+        })
+
+    return structure
 
 def dataframe_to_spaced_string(df: pd.DataFrame) -> str:
     columns = df.columns.tolist()
@@ -51,42 +185,65 @@ def create_trainset(file_path):
         ).with_inputs('part_chapters', 'current_content'))
     return trainset
 
-def generate_embeddings_from_trainset(trainset):
-    model = SentenceTransformer(r"bge-large-zh-v1.5")
+def average_pool(last_hidden_states: Tensor,
+                 attention_mask: Tensor) -> Tensor:
+    last_hidden = last_hidden_states.masked_fill(~attention_mask[..., None].bool(), 0.0)
+    return last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
+def generate_embeddings_from_trainset(trainset,tokenizer,model):
     alltrainembedd = []
     for i in range(len(trainset)):
-        trainsample = trainset[i].current_content
-        alltrainembedd.append(model.encode(trainsample))
+        batch_dict = tokenizer(trainset[i].current_content, max_length=512, padding=True, truncation=True,
+                               return_tensors='pt')
+        embeddings = average_pool(model(**batch_dict).last_hidden_state, batch_dict['attention_mask'])
+        alltrainembedd.append(embeddings)
     return alltrainembedd
 
-def show_node(output,root,rootwithcontent,group,pre_chapter,trainset,alltrainembedd,k):
+
+def show_node(output,root,rootwithcontent,group,pre_chapter,trainset,alltrainembedd,k,tokenizer,model,auth,known,unknown):
     part_chapters = tree_to_string(root).replace("部分目录", "")
     print("partchapters",part_chapters)
+    if pre_chapter == "ChapterUnknownChapter,SectionUnknownSection,和ChapterUnknownChapter,SectionUnknownSection":
+        pre_chapter= ""
     current_content = group
-    topktrainset, devset = findtopk(k, trainset, current_content, alltrainembedd)
+    top=findtopk(k, trainset, current_content, alltrainembedd,tokenizer,model)
+    topktrainset, devset = top[0],top[1]
+    authentic=str(llmwriting("Can the segment allocate the segment into the given table of contents by referring the examples and table of content? Be confident." + "example:" + "".join(top[2]) + ".segment:" + current_content + ". Given table of contents:"+part_chapters+". Please answer with only Yes or No"))
+    print("authentic",authentic)
     teleprompter = LabeledFewShot(k=2)
     optimized = teleprompter.compile(student=Predict(), trainset=topktrainset)
     answer = optimized(part_chapters=part_chapters, pre_chapter=pre_chapter, current_content=current_content).label
     answer = answer.replace("'", "").replace("\"", "").replace("Label", "").replace(":", "").replace(" ","")
-    pattern = r"Chapter(.+)下的Section(.+),和Chapter(.+)下的Section(.+)"
+    pattern = r"Chapter(.+),Section(.+),和Chapter(.+),Section(.+)"
     print("answerprev",answer)
     if not re.match(pattern, answer):
-        answer = "ChapterUnknownChapter下的SectionUnknownSection,和ChapterUnknownChapter下的SectionUnknownSection"
+        answer = "ChapterUnknownChapter,SectionUnknownSection,和ChapterUnknownChapter,SectionUnknownSection"
     print("answer",answer)
+    if authentic=='No':
+        print("This is an unknown")
+        unknown=unknown+1
+    else:
+        print("This is known")
+        known=known+1
     answer0 = answer.split(",和")[0]
+    if authentic=='No':
+        if "[Not Sure]" not in answer0:
+            answer0=answer0+"[Not Sure]"
     output = output + group + "(" + answer0 + ")"
     root = updatenote(root, answer0)
     rootwithcontent = updatenote(rootwithcontent, answer0)
-    target_node = find_node(rootwithcontent, answer0.split("下的")[1])
+    target_node = find_node(rootwithcontent, answer0.split(",")[1])
     if target_node:
         target_node.add_content(current_content)
     try:
         answer1 = answer.split(",和")[1]
+        if authentic=='No':
+            if "[Not Sure]" not in answer1:
+                answer1=answer1+"[Not Sure]"
         if answer1!=answer0:
             output=output+" ("+answer1+")"
             root = updatenote(root, answer1)
             rootwithcontent = updatenote(rootwithcontent, answer1)
-            target_node = find_node(rootwithcontent, answer1.split("下的")[1])
+            target_node = find_node(rootwithcontent, answer1.split(",")[1])
             if target_node:
                 target_node.add_content(current_content)
     except:
@@ -94,7 +251,7 @@ def show_node(output,root,rootwithcontent,group,pre_chapter,trainset,alltrainemb
     output=output+"\n"
     print("root",tree_to_string(root))
     print("rootwithcontent",tree_to_string(rootwithcontent))
-    return tree_to_string(root),tree_to_string(rootwithcontent), output,answer
+    return tree_to_string(root),tree_to_string(rootwithcontent), output,answer,auth,known,unknown
 
 def tree_to_string(node, level=0):
     indent = "  " * level
@@ -128,7 +285,7 @@ def find_node(root, target_name):
 
 def updatenote(root, answer):
     # 定义正则表达式模式
-    pattern = r'Chapter([^"]*)下的Section([^"]*)'
+    pattern = r'Chapter([^"]*),Section([^"]*)'
 
     # 使用正则表达式进行匹配
     matches = re.search(pattern, answer)
@@ -175,15 +332,15 @@ def chapter_api(function_name, function_instance_id, total_chapters, pre_chapter
         print("Failed to call API. Status code:", response.status_code)
         return None
     
-def findtopk(k,trainset,current_content,alltrainembedd):
-    model = SentenceTransformer(r"bge-large-zh-v1.5")
+def findtopk(k,trainset,current_content,alltrainembedd,tokenizer,model):
+    batch_dict = tokenizer(current_content, max_length=512, padding=True, truncation=True, return_tensors='pt')
+    embeddings = average_pool(model(**batch_dict).last_hidden_state, batch_dict['attention_mask'])
     scores=[]
     topktrain=[]
+    examplelist=[]
     val=[]
-    newinput=current_content
-    inputembedd = model.encode(newinput)
     for i in range(len(alltrainembedd)):
-        scores.append(util.pytorch_cos_sim(inputembedd, alltrainembedd[i]))
+        scores.append(util.pytorch_cos_sim(embeddings, alltrainembedd[i]))
     score_index = {score: index for index, score in enumerate(scores)}
     sorted_scores = sorted(scores, reverse=True)
     print("sorted_scores",sorted_scores)
@@ -194,12 +351,13 @@ def findtopk(k,trainset,current_content,alltrainembedd):
         topktrain.append(dspy.Example(current_content=trainset[m].current_content,
                                      label=trainset[m].label).with_inputs('part_chapters', "current_content")
         )
+        examplelist.append("current_content"+trainset[m].current_content+".label"+trainset[m].label)
     for n in other_indices:
         val.append(dspy.Example(current_content=trainset[n].current_content,
                                      label=trainset[n].label).with_inputs('part_chapters',"current_content")
         )
     
-    return topktrain,val
+    return topktrain,val,examplelist
 
 
 def find_node(root, target_name):
@@ -330,7 +488,7 @@ def updatetrainset(A, B,trainset,ca):
         if chapter not in A_structure:
             current_content=B_structure[chapter][0].split(":")[1].replace("\"","")
             current_content_segs = segment_text(current_content,2)
-            label=chapter+"下的"+B_structure[chapter][0].split(":")[0]
+            label=chapter+","+B_structure[chapter][0].split(":")[0]
             for i in current_content_segs:
                 ca.loc[len(ca)] = {'current_content': i, 'label1': label, 'label2': label}
                 trainset.append(dspy.Example(
@@ -349,7 +507,7 @@ def updatetrainset(A, B,trainset,ca):
                             current_content_segs=segment_text(current_content,2)
                             print("current_content_segs",current_content_segs)
                             for i in current_content_segs:
-                                label = chapter + "下的" + section.split(":")[0]
+                                label = chapter + "," + section.split(":")[0]
                                 ca.loc[len(ca)] = {'current_content': i, 'label1': label, 'label2': label}
                                 trainset.append(dspy.Example(
                                     current_content=i,
@@ -362,7 +520,7 @@ def extract_content_and_label(text):
     matches = pattern.findall(text)
     return [(content.strip(), label.strip()) for content, label in matches]
 
-def updatetrainset2(text1, text2,trainset,ca):
+def updatetrainset2(text1, text2,trainset):
     content_label_pairs1 = extract_content_and_label(text1)
     content_label_pairs2 = extract_content_and_label(text2)
 
@@ -371,11 +529,10 @@ def updatetrainset2(text1, text2,trainset,ca):
         if label1 != label2:
             differences.append((content1, label1))
     for content, label in differences:
-        ca.loc[len(ca)] = {'current_content': content, 'label1': label, 'label2': label}
         trainset.append(dspy.Example(
             current_content=content,
             label=label + ",和" + label).with_inputs('part_chapters', 'current_content'))
-    return trainset, ca
+    return trainset
 
 
     return differences
@@ -444,17 +601,48 @@ def format_result_list(result_list):
         formatted_output += f"{written}\n\n"
 
     return formatted_output.strip()
+
+
+def merge_sections(node):
+    if not node.children:
+        return
+    # Create a dictionary to store the merged nodes
+    merged_children = {}
+
+    for chapter in node.children:
+        for section in chapter.children:
+            # Step 1: Clean section.name
+            clean_name = section.name.replace("[Not Sure]", "")
+
+            # Step 2: Merge sections with the same cleaned name
+            if clean_name not in merged_children:
+                # If the name doesn't exist in the dictionary, add it and copy content
+                merged_children[clean_name] = Node(clean_name)
+                merged_children[clean_name].add_content(section.content)
+            else:
+                # If the name already exists, merge the content
+                merged_children[clean_name].add_content(section.content)
+        chapter.children=list(merged_children.values())
+    print("merged children values",merged_children.values())
+    return node  # Return the updated root node
+
+
 def generate_writting(root, resultlist,file):
     new_root = copy.deepcopy(root)
+    new_root = merge_sections(new_root)
     allcontent=tree_to_string(new_root)
-    summary=llmwriting("What's the scenario of the following conversation? Summarize in one sentence:"+allcontent)
+    print("allcontent",allcontent)
+    summary=llmwriting("What's the scenario of the following conversation? Summarize in one sentence:"+allcontent+"用中文")
     print("summary",summary)
     for item in resultlist:
         for chapter in new_root.children:
+            print("aaaaa啊啊啊chapter啊啊啊",chapter)
             for section in chapter.children:
+                print("bbbsection",section)
                 chapter_name = chapter.name.split("Chapter")[1]
-                section_name = section.name.split("Section")[1]
+                section_name = section.name.split("Section")[1].replace("[Not Sure]","")
                 if chapter_name==item['chapter'] and section_name==item['section']:
+                    print("section content",section.content)
                     writing_style = item['writingStyle']
                     prompt = genprompt(writing_style, file)
                     print("writingstyle is:",writing_style, "prompt is:", prompt)
@@ -466,7 +654,10 @@ def generate_writting(root, resultlist,file):
     for item in resultlist:
         output += f"**{item['chapter']}**\n"
         output += f"*{item['section']}*\n"
-        output += item['written'] + "\n"
+        try:
+            output += item['written'] + "\n"
+        except:
+            output += "No content"
         output += "\n"
     if len(str(resultlist))>1000:
         return output
