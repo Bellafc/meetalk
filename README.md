@@ -6,7 +6,7 @@ pip install torch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 --index-url https
 ```
   cd vue_shop (absolute address)
   npm install
-  npm run server
+  npm run serve
   copy the given address
 ```
 
